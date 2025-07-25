@@ -8,6 +8,7 @@ def extract_outline(pdf_path):
     outline = []
 
     for page_num, page in enumerate(doc, start=1):
+        actual_page_num = page_num - 1  # Shift to 0-based numbering
         blocks = page.get_text("dict")["blocks"]
         for block in blocks:
             if "lines" in block:
@@ -28,7 +29,7 @@ def extract_outline(pdf_path):
                     outline.append({
                         "level": level,
                         "text": text.strip(),
-                        "page": page_num
+                        "page": actual_page_num  # Use 0-based page number
                     })
 
     return {
