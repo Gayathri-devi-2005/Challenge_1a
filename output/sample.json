@@ -2,17 +2,17 @@
   "title": "sample",
   "outline": [
     {
-      "level": "H3",
+      "level": "H1",
       "text": "Department of CSE",
       "page": 0
     },
     {
-      "level": "H3",
+      "level": "H1",
       "text": "MRCET",
       "page": 0
     },
     {
-      "level": "H3",
+      "level": "H1",
       "text": "",
       "page": 0
     },
