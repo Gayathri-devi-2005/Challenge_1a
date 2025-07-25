@@ -1,1 +1,7700 @@
-
+{
+  "title": "sample",
+  "outline": [
+    {
+      "level": "H3",
+      "text": "Department of CSE",
+      "page": 0
+    },
+    {
+      "level": "H3",
+      "text": "MRCET",
+      "page": 0
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 0
+    },
+    {
+      "level": "H2",
+      "text": "UNIT-I",
+      "page": 0
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 0
+    },
+    {
+      "level": "H2",
+      "text": "Machine Learning",
+      "page": 0
+    },
+    {
+      "level": "H2",
+      "text": "is the field of study that gives computers the capability to learn without",
+      "page": 0
+    },
+    {
+      "level": "H2",
+      "text": "being explicitly programmed. ML is one of the most exciting technologies",
+      "page": 0
+    },
+    {
+      "level": "H2",
+      "text": "that one would have ever come across. As it is evident from the name, it",
+      "page": 0
+    },
+    {
+      "level": "H2",
+      "text": "gives the computer that makes it more similar to humans:  The ability to",
+      "page": 0
+    },
+    {
+      "level": "H2",
+      "text": "learn . Machine learning is actively being used today, perhaps in many more",
+      "page": 0
+    },
+    {
+      "level": "H2",
+      "text": "places than one would expect.",
+      "page": 0
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 0
+    },
+    {
+      "level": "H2",
+      "text": "Machine Learning is broadly categorized under the following headings:",
+      "page": 0
+    },
+    {
+      "level": "H2",
+      "text": "Machine learning evolved from left to right as shown in the above diagram.",
+      "page": 0
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  Initially, researchers started out with Supervised Learning. This is the",
+      "page": 0
+    },
+    {
+      "level": "H2",
+      "text": "case of housing price prediction discussed earlier",
+      "page": 0
+    },
+    {
+      "level": "H2",
+      "text": ".  \u2022  This was followed by unsupervised learning, where the machine is made",
+      "page": 0
+    },
+    {
+      "level": "H2",
+      "text": "to learn on its own without any supervision.",
+      "page": 0
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  Scientists discovered further that it may be a good idea to reward the",
+      "page": 0
+    },
+    {
+      "level": "H2",
+      "text": "machine when it does the job the expected way and there came the",
+      "page": 0
+    },
+    {
+      "level": "H2",
+      "text": "Reinforcement Learning.",
+      "page": 0
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  Very soon, the data that is available these days has become so humongous",
+      "page": 0
+    },
+    {
+      "level": "H2",
+      "text": "that the conventional techniques developed so far failed to analyse the big",
+      "page": 0
+    },
+    {
+      "level": "H2",
+      "text": "data and provide us the predictions.",
+      "page": 0
+    },
+    {
+      "level": "H3",
+      "text": "Department of CSE",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "MRCET",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  Thus, came the deep learning where the human brain is simulated in the",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "Artificial Neural Networks (ANN) created in our binary computers.",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  The machine now learns on its own using the high computing power and",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "huge memory resources that are available today.",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  It is now observed that Deep Learning has solved many of the previously",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "unsolvable problems.",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  The technique is now further advanced by giving incentives to Deep",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "Learning networks as awards and there finally comes Deep Reinforcement",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "Learning.",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "Let us now study each of these categories in more details",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "Supervised Learning:",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "Supervised learning is analogous to training a child to walk. You will hold",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "the child\u2019s hand, show him how to take his foot forward, walk yourself for a",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "demonstration and so on, until the child learns to walk on his own.",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "Regression:",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "Similarly, in the case of supervised learning, you give concrete known",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "examples to the computer. You say that for given feature value x1 the output",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "is y1, for x2 it is y2, for x3 it is y3, and so on. Based on this data, you let the",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "computer figure out an empirical relationship between x and y. Once the",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "machine is trained in this way with a sufficient number of data points, now",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "you would ask the machine to predict Y for a given X. Assuming that you",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "know the real value of Y for this given X, you will be able to deduce whether",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "the machine\u2019s prediction is correct. Thus, you will test whether the machine",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "has learned by using the known test data. Once you are satisfied that the",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "machine is able to do the predictions with a desired level of accuracy (say 80",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "to 90%) you can stop further training the machine. Now, you can safely use",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "the machine to do the predictions on unknown data points, or ask the",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "machine to predict Y for a given X for which you do not know the real value",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "of Y. This training comes under the regression that we talked about earlier.",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Department of CSE",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "MRCET",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "Classification:",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "You may also use machine learning techniques for classification problems. In",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "classification problems, you classify objects of similar nature into a single",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "group. For example, in a set of 100 students say, you may like to group them",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "into three groups based on their heights - short, medium and long. Measuring",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "the height of each student, you will place them in a proper group. Now, when",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "a new student comes in, you will put him in an appropriate group by",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "measuring his height. By following the principles in regression training, you",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "will train the machine to classify a student based on his feature \u2013 the height.",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "When the machine learns how the groups are formed, it will be able to",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "classify any unknown new student correctly. Once again, you would use the",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "test data to verify that the machine has learned your technique of",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "classification before putting the developed model in production. Supervised",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "Learning is where the AI really began its journey. This technique was",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "applied successfully in several cases. You have used this model while doing",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "the hand-written recognition on your machine. Several algorithms have been",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "developed for supervised learning. You will learn about them in the",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "following chapters.",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "Unsupervised Learning:",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "In unsupervised learning, we do not specify a target variable to the machine,",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "rather we ask machine \u201cWhat can you tell me about X?\u201d. More specifically,",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "we may ask questions such as given a huge data set X, \u201cWhat are the five",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "best groups we can make out of X?\u201d or \u201cWhat features occur together most",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "frequently in X?\u201d. To arrive at the answers to such questions, you can",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "understand that the number of data points that the machine would require to",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "deduce a strategy would be very large. In case of supervised learning, the",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "machine can be trained with even about few thousands of data points.",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "However, in case of unsupervised learning, the number of data points that is",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "reasonably accepted for learning starts in a few millions. These days, the data",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "is generally abundantly available. The data ideally requires curating.",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "However, the amount of data that is continuously flowing in a social area",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "network, in most cases data curation is an impossible task. The following",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "figure shows the boundary between the yellow and red dots as determined by",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "unsupervised machine learning. You  can see it clearly  that the machine",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "Department of CSE",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "MRCET",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "would be able to determine the class of each of the black dots with a fairly",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "good accuracy.",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "Reinforcement Learning:",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "Consider training a pet dog, we train our pet to bring a ball to us. We throw",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "the ball at a certain distance and ask the dog to fetch it back to us. Every time",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "the dog does this right, we reward the dog. Slowly, the dog learns that doing",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "the job rightly gives him a reward and then the dog starts doing the job right",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "way every time in future. Exactly, this concept is applied in \u201cReinforcement\u201d",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "type of learning. The technique was initially developed for machines to play",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "games. The machine is given an algorithm to analyse all possible moves at",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "each stage of the game. The machine may select one of the moves at random.",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "If the move is right, the machine is rewarded, otherwise it may be penalized.",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "Slowly, the machine will start differentiating between right and wrong moves",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "and after several iterations would learn to solve the game puzzle with a better",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "accuracy. The accuracy of winning the game would improve as the machine",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "plays more and more games.",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "The entire process may be depicted in the following diagram:",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "Department of CSE",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "MRCET",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "Deep Learning:",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "The deep learning is a model based on Artificial Neural Networks (ANN),",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "more specifically Convolutional Neural Networks (CNN)s. There are several",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "architectures used in deep learning such as deep neural networks, deep belief",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "networks, recurrent neural networks, and convolutional neural networks.",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "These networks have been successfully applied in solving the problems of",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "computer",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "vision, speech recognition, natural",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "language processing,",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "bioinformatics, drug design, medical image analysis, and games. There are",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "several other fields in which deep learning is proactively applied. The deep",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "learning requires huge processing power and humongous data, which is",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "generally easily available these days. We will talk about deep learning more",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "in detail in the coming chapters.",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "Deep Reinforcement Learning :",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "The Deep Reinforcement Learning (DRL) combines the techniques of both",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "deep and reinforcement learning. The reinforcement learning algorithms like",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "Q learning are now combined with deep learning to create a powerful DRL",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "model. The technique has been with a great success in the fields of robotics,",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "video games, finance and healthcare. Many previously unsolvable problems",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "are now solved by creating DRL models. There is lots of research going on",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "in this area and this is very actively pursued by the industries. So far, you",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "Department of CSE",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "MRCET",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "have got a brief introduction to various machine learning models, now let us",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "explore slightly deeper into various algorithms that are available under these",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "models.",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "Well posed learning problems:",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "A computer program is said to learn from experience E in context to some",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "task T and some performance measure P, if its performance on T, as was",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "measured by P, upgrades with experience E.",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "Any problem can be segregated as well-posed learning problem if it has three",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "traits \u2013",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "Task",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "Performance Measure",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "Experience",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "Certain example that efficiently defines the well-posed learning problems",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "are:",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "1.   To better filter emails as spam or not",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "Task \u2013 Classifying emails as spam or not",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "Performance Measure \u2013 The fraction of emails accurately classified as spam",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "or not spam",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "Experience \u2013 Observing you label emails as spam or not spam",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "2.   A checkers learning problem",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "Task \u2013 Playing checkers game",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "Performance Measure \u2013 percent of games won against opposer",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "Experience  \u2013  playing implementation games against itself",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "3.   Handwriting Recognition Problem",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "Task \u2013 Acknowledging handwritten words within portrayal",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "Performance Measure \u2013 percent of words accurately classified",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "Experience \u2013 a directory of handwritten words with given classifications",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "4.   A Robot Driving Problem",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "Task \u2013 driving on public four-lane highways using sight scanners",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "Performance Measure \u2013 average distance progressed before a fallacy",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "Experience \u2013 order of images and steering instructions noted down while",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "observing a human driver",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "5.   Fruit Prediction Problem",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "Department of CSE",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "MRCET",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "Task \u2013 forecasting different fruits for recognition",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "Performance Measure \u2013 able to predict maximum variety of fruits",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "Experience \u2013 training machine with the largest datasets of fruits images",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "6.   Face Recognition Problem",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "Task \u2013 predicting different types of faces",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "Performance Measure \u2013 able to predict maximum types of faces",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "Experience \u2013 training machine with maximum amount of datasets of",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "different face images",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "7.   Automatic Translation of documents",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "Task \u2013 translating one type of language used in a document to other language",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "Performance Measure \u2013 able to convert one language to other efficiently",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "Experience \u2013 training machine with a large dataset of different types of",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "languages",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "Design of a learning system:",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "Just now we looked into the learning process and also understood the goal",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "of the learning. When we want to design a learning system that follows the",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "learning process, we need to consider a few design choices. The design",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "choices will be to decide the following key components:",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "1.",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "Type of training experience",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "2.",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "Choosing the Target Function",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "3.",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "Choosing a representation for the Target Function",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "4.",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "Choosing an approximation algorithm for the Target Function",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "5.",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "The final Design",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "We will look into the game - checkers learning problem and apply the above",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "design choices. For a checkers learning problem, the three elements will be,",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  Task T: To play checkers",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  Performance measure P: Total present of the game won in the tournament.",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  Training experience E: A set of games played against itself.",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "Type of training experience:",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "During the design of the checker's learning system, the type of training",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "experience available for a learning system will have a significant effect on",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "the success or failure of the learning.",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "Department of CSE",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "MRCET",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "Direct or Indirect training experience:",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "In the case of direct training experience, an individual board states and",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "correct move for each board state are given. In case of indirect training",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "experience, the move sequences for a game and the final result (win, lose or",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "draw) are given for a number of games. How to assign credit or blame to",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "individual moves is the credit assignment problem.",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "1.   Teacher or Not:",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "\uf0a2   Supervised:",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "The training experience will be labelled, which means, all the board states",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "will be labelled with the correct move. So the learning takes place in the",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "presence of a supervisor or a teacher.",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "\uf0a2   Un-Supervised:",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "The training experience will be unlabelled, which means, all the board",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "states will not have the moves. So the learner generates random games and",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "plays against itself with no supervision or teacher involvement.",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "\uf0a2   Semi-supervised:",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "Learner generates game states and asks the teacher for help in finding",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "the correct move if the board state is confusing.",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "2.   Is the training experience good:",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "\uf0a2   Do the training examples represent the distribution of examples over",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "which the final system performance will be measured? Performance is best",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "when training examples and test examples are from the same/a similar",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "distribution.",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "\uf0a2   The checker player learns by playing against oneself. Its experience is",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "indirect. It may not encounter moves that are common in human expert play.",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "Once the proper training experience is available, the next design step will be",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "choosing the Target Function.",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "Choosing the Target Function:",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "When you are playing the checkers game, at any moment of time, you make",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "a decision on choosing the best move from different possibilities. You think",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "and apply the learning that you have gained from the experience. Here the",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "learning is, for a specific board, you move a checker such that your board",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "Department of CSE",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "MRCET",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "state tends towards the winning situation. Now the same learning has to be",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "defined in terms of the target function.",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "Here there are 2 considerations \u2014 direct and indirect experience.",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  During the direct experience  the checkers learning system, it needs only",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "to learn how to choose the best move among some large search space. We",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "need to find a target function that will help us choose the best move among",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "alternatives.",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "Let us call this function Choose Move and use the notation Choose Move: B",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "\u2192M to indicate that this function accepts as input any board from the set of",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "legal board states B and produces as output some move from the set of legal",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "moves M.",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  When there is an indirect experience it  becomes difficult to learn such",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "function. How about assigning a real score to the board state.",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "So the function be V: B \u2192R indicating that this accepts as input any board",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "from the set of legal board states B and produces an output a real score. This",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "function assigns the higher scores to better board states",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "If the system can successfully learn such a target function V, then it can",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "easily use it to select the best move from any board position.",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "Let us therefore define the target value V(b) for an arbitrary board state b in",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "B, as follows:",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "Department of CSE",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "MRCET",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "1.   if b is a final board state that is won, then V(b) = 100",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "2.   if b is a final board state that is lost, then V(b) = -100",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "3.   if b is a final board state that is drawn, then V(b) = 0",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "4.   if b is a not a final state in the game, then V (b) = V (b\u2019), where b\u2019 is the best",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "final board state that can be achieved starting from b and playing optimally",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "until the end of the game.",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "The (4) is a recursive definition and to determine the value of V(b) for a",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "particular board state, it performs the search ahead for the optimal line of",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "play, all the way to the end of the game. So this definition is not efficiently",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "computable by our checkers playing program, we say that it is a non-",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "operational definition.",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "Choosing a representation for the Target Function:",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "Now that we have specified the ideal target function V, we must choose a",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "representation that the learning program will use to describe the function ^V",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "that it will learn. As with earlier design choices, we again have many options.",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "We could, for example, allow the program to represent using a large table",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "with a distinct entry specifying the value for each distinct board state. Or we",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "could allow it to represent using a collection of rules that match against",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "features of the board state, or a quadratic polynomial function of predefined",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "board features, or an artificial neural network. In general, this choice of",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "representation involves a crucial trade off. On one hand, we wish to pick a",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "very expressive representation to allow representing as close an",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "approximation as possible to the ideal target function V.",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "On the other hand, the more expressive the representation, the more training",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "data the program will require in order to choose among the alternative",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "hypotheses it can represent. To keep the discussion brief, let us choose a",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "simple representation: for any given board state, the function ^V will be",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "calculated as a linear combination of the following board features:",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  x1(b) \u2014 number of black pieces on board b",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  x2(b) \u2014 number of red pieces on b",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  x3(b) \u2014 number of black kings on b",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "Department of CSE",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "MRCET",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  x4(b) \u2014 number of red kings on b",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  x5(b) \u2014 number of red pieces threatened by black  \u2022  x6(b) \u2014 number of",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "black pieces threatened by red",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "^V = w0 + w1 \u00b7 x1(b) + w2 \u00b7 x2(b) + w3 \u00b7 x3(b) + w4 \u00b7 x4(b) +w5 \u00b7 x5(b) + w6 \u00b7 x6(b)",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": "",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "Where w0 through w6 are numerical coefficients or weights to be obtained",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "by a learning algorithm. Weights w1 to w6 will determine the relative",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "importance of different board features.",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "Specification of the Machine Learning Problem at this time:  Till now we",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "worked on choosing the type of training experience, choosing the target",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "function and its representation. The checkers learning task can be",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "summarized as below.",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  Task T: Play Checkers",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  Performance Measure: % of games won in world tournament",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  Training Experience E: opportunity to play against itself",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  Target Function: V: Board \u2192 R",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  Target Function Representation: ^V = w0 + w1 \u00b7 x1(b) + w2 \u00b7 x2(b) + w3 \u00b7",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "x3(b) + w4 \u00b7 x4(b) +w5 \u00b7 x5(b) + w6 \u00b7 x6(b)",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "The first three items above correspond to the specification of the learning",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "task, where as the final two items constitute design choices for the",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "implementation of the learning program.",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "Choosing an approximation algorithm for the Target Function:",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "Generating training data \u2014 To train our learning program, we need a set of",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "training data, each describing a specific board state b and the training value",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "V_train (b) for b. Each training example is an ordered pair <b,v_train(b)>.",
+      "page": 10
+    },
+    {
+      "level": "H3",
+      "text": "Department of CSE",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "text": "MRCET",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "Temporal difference (TD) learning is a concept central to reinforcement",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "learning, in which learning happens through the iterative correction of your",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "estimated returns towards a more accurate target return.",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "\uf056   V_train(b) \u2190 ^V(Successor(b))",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "Final Design for Checkers Learning system:",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "The final design of our checkers learning system can be naturally described",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "by four distinct program modules that represent the central components in",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "many learning systems.",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "1.   The performance System: Takes a new board as input and outputs a trace of",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "the game it played against itself.",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "2.   The Critic: Takes the trace of a game as an input and outputs a set of training",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "examples of the target function.",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "3.   The Generalizer: Takes training examples as input and outputs a hypothesis",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "that estimates the target function. Good generalization to new cases is",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "crucial.",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "4.   The Experiment Generator: Takes the current hypothesis (currently learned",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "function) as input and outputs a new problem (an initial board state) for the",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "performance system to explore.",
+      "page": 11
+    },
+    {
+      "level": "H1",
+      "text": "",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "Issues in Machine Learning:",
+      "page": 11
+    },
+    {
+      "level": "H3",
+      "text": "Department of CSE",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "MRCET",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "Our checkers example raises a number of generic questions about machine",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "learning. The field of machine learning, and much of this book, is concerned",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "with answering questions such as the following:",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  What algorithms exist for learning general target functions from specific",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "training examples? In what settings will particular algorithms converge to the",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "desired function, given sufficient training data? Which algorithms perform",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "best for which types of problems and representations?",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  How much training data is sufficient? What general bounds can be found to",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "relate the confidence in learned hypotheses to the amount of training",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "experience and the character of the learner's hypothesis space?",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  When and how can prior knowledge held by the learner guide the process of",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "generalizing from examples? Can prior knowledge be helpful even when it is",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "only approximately correct?",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  What is the best strategy for choosing a useful next training experience, and",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "how does the choice of this strategy alter the complexity of the learning",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "problem?",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  What is the best way to reduce the learning task to one or more function",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "approximation problems? Put another way, what specific functions should",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "the system attempt to learn? Can this process itself be automated?",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  How can the learner automatically alter its representation to improve its",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "ability to represent and learn the target function?",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "CONCEPT LEARNING:",
+      "page": 12
+    },
+    {
+      "level": "H1",
+      "text": "",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  Inducing general functions from specific training examples is a main issue of",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "machine learning.",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  Concept Learning : Acquiring the definition of a general category from",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "given sample positive and negative training examples of the category.",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  Concept Learning can see as a problem of searching through a predefined",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "space of potential hypotheses for the hypothesis that best fits the training",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "examples.",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  The hypothesis space has a general-to-specific ordering of hypotheses, and",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "the search can be efficiently organized by taking advantage of a naturally",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "occurring structure over the hypothesis space.",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "A Formal Definition for Concept Learning:",
+      "page": 12
+    },
+    {
+      "level": "H3",
+      "text": "Department of CSE",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "MRCET",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "Inferring a Boolean-valued function from training examples of its input and",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "output.",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "\u2022   An example for concept-learning is the learning of bird-concept from the",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "given examples of birds (positive examples) and non-birds (negative",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "examples).",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "\u2022   We are trying to learn the definition of a concept from given examples.",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "A Concept Learning Task: Enjoy Sport Training Examples",
+      "page": 13
+    },
+    {
+      "level": "H1",
+      "text": "",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "A set of example days, and each is described by six attributes. The task is to",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "learn to predict the value of Enjoy Sport for arbitrary day, based on the",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "values of its attribute values.",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "Concept Learning as Search:",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "\u2022",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "Concept learning can be viewed as the task of searching through a large",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "space of hypotheses implicitly defined by the hypothesis representation.",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "\u2022",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "The goal of this search is to find the hypothesis that best fits the training",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "examples.",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "\u2022",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "By selecting a hypothesis representation, the designer of the learning",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "algorithm implicitly defines the space of all hypotheses that the program can",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "ever represent and therefore can ever learn.",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "Department of CSE",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "MRCET",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "FIND-S:",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "\u2022",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "FIND-S Algorithm starts from the most specific hypothesis and generalize it",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "by considering only positive examples.",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "\u2022",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "FIND-S algorithm ignores negative example",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": ": As long as the hypothesis space contains a hypothesis that describes the",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "true target concept, and the training data contains no errors, ignoring",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "negative examples does not cause to any problem.",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "\u2022",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "FIND-S algorithm finds the most specific hypothesis within H that is",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "consistent with the positive training examples. \u2013 The final hypothesis will",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "also be consistent with negative examples if the correct target concept is in",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "H, and the training examples are correct.",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "FIND-S Algorithm:",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "1.",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "Initialize h to the most specific hypothesis in H",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "2.",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "For each positive training instance x",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "For each attribute",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "constraint a, in h",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "If the constraint a, is satisfied by x",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "Then do nothing",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "3.   Else replace a, in h by the next more general constraint that is satisfied by",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "x 4. Output hypothesis h",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "FIND-S Algorithm \u2013 Example:",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "Important-Representation:",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "1.   ?  indicates that any value is acceptable for the attribute.",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "2.   specify a single required value (e.g., Cold) for the attribute.",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "3.   \u03a6  indicates that no value is acceptable.",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "4.   The most  general hypothesis  is represented by:  {?, ?, ?, ?, ?, ?}",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "5.   The most  specific hypothesis  is represented by:  {\u03d5, \u03d5, \u03d5, \u03d5, \u03d5, \u03d5}",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "Steps Involved in Find-S:",
+      "page": 14
+    },
+    {
+      "level": "H2",
+      "text": "1.   Start with the most specific hypothesis.  h = {\u03d5, \u03d5, \u03d5, \u03d5, \u03d5, \u03d5}",
+      "page": 14
+    },
+    {
+      "level": "H3",
+      "text": "Department of CSE",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "MRCET",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "2.   Take the next example and if it is negative, then no changes occur to the",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "hypothesis.",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "3.   If the example is positive and we find that our initial hypothesis is too",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "specific then we update our current hypothesis to a general condition.",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "4.   Keep repeating the above steps till all the training examples are complete.",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "5.   After we have completed all the training examples we will have the final",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "hypothesis when can use to classify the new examples.  Example:  Consider",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "the following data set having the data about which particular seeds are",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "poisonous.",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 15
+    },
+    {
+      "level": "H1",
+      "text": "",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "First, we consider the hypothesis to be a more specific hypothesis. Hence,",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "our hypothesis would be:  h = {\u03d5, \u03d5, \u03d5, \u03d5, \u03d5, \u03d5}",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "Consider example 1:",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "The data in example 1 is {GREEN, HARD, NO, WRINKLED}. We see that",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "our initial hypothesis is more specific and we have to generalize it for this",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "example.",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "Hence, the hypothesis becomes:",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "h = {GREEN, HARD, NO, WRINKLED}",
+      "page": 15
+    },
+    {
+      "level": "H2",
+      "text": "Consider example 2:",
+      "page": 15
+    },
+    {
+      "level": "H3",
+      "text": "Department of CSE",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "MRCET",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "Here we see that this example has a negative outcome. Hence we neglect",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "this example and our hypothesis remains the same.  h = {GREEN,",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "HARD, NO, WRINKLED}",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "Consider example 3:",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "Here we see that this example has a negative outcome. hence we neglect",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "this example and our hypothesis remains the same.  h = {GREEN,",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "HARD, NO, WRINKLED}",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "Consider example 4:",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "The data present in example 4 is {ORANGE, HARD, NO, WRINKLED}.",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "We",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "compare every single attribute with the initial data and if any mismatch is",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "found we replace that particular attribute with a general case (\u201c ?\u201d). After",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "doing the process the hypothesis becomes:  h = {?, HARD,",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "NO,",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "WRINKLED }",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "Consider example 5:",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "The data present in example 5 is {GREEN, SOFT, YES, SMOOTH}. We",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "compare every single attribute with the initial data and if any mismatch is",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "found we replace that particular attribute with a general case ( \u201c?\u201d ). After",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "doing the process the hypothesis becomes:",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "h = {?, ?, ?, ? }",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "Since we have reached a point where all the attributes in our hypothesis",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "have the general condition, example 6 and example 7 would result in the",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "same hypothesizes with all general attributes.  h = {?, ?, ?, ? }",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "Hence, for the given data the final hypothesis would be:",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "Final Hypothesis: h = { ?, ?, ?, ? }.",
+      "page": 16
+    },
+    {
+      "level": "H1",
+      "text": "",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "Version Spaces",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "Definition(Version space).  A concept is complete if it covers all positive",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "examples.",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "A concept is consistent if it covers none of the negative examples. The",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "version space is the set of all complete and consistent concepts. This set is",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "convex and is fully defined by its least and most general elements.",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "Candidate-Elimination Learning Algorithm",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "Department of CSE",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "MRCET",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "The CANDIDATE-ELIMINTION algorithm computes the version space",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "containing all hypotheses from H that are consistent with an observed",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "sequence of training examples.",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "Initialize G to the set of maximally general hypotheses in H Initialize S to",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "the set of maximally specific hypotheses in H For each training example d,",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "do",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "\u2022",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "If d is a positive example",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "\u2022",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "Remove from G any hypothesis inconsistent with d",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "\u2022",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "For each hypothesis s in S that is not consistent with d",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "\u2022",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "Remove s from S \u2022 Add to S all minimal generalizations h of s such that h is",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "consistent with d, and some member of G is more general than h",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "\u2022",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "Remove from S any hypothesis that is more general than another hypothesis",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "in S",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "\u2022",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "If d is a negative example",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "\u2022",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "Remove from S any hypothesis inconsistent with d",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "\u2022",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "For each hypothesis g in G that is not consistent with d",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "\u2022",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "Remove g from G 18\\",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "\u2022",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "Add to G all minimal specializations h of g such that",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "\u2022",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "h is consistent with d, and some member of S is more specific than h",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "\u2022",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "Remove from G any hypothesis that is less general than another hypothesis",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "in G.",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "CANDIDATE- ELIMINTION algorithm using version spaces  An",
+      "page": 17
+    },
+    {
+      "level": "H2",
+      "text": "Illustrative Example:",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "Department of CSE",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "MRCET",
+      "page": 18
+    },
+    {
+      "level": "H2",
+      "text": "CANDIDATE-ELIMINTION algorithm begins by initializing the version",
+      "page": 18
+    },
+    {
+      "level": "H2",
+      "text": "space to the set of all hypotheses in H;",
+      "page": 18
+    },
+    {
+      "level": "H2",
+      "text": "boundary set to contain the most general hypothesis in H, G0 ?, ?, ?, ?, ?,",
+      "page": 18
+    },
+    {
+      "level": "H2",
+      "text": "When the first training example is presented, the",
+      "page": 18
+    },
+    {
+      "level": "H2",
+      "text": "CANDIDATEELIMINTION algorithm checks the S boundary and finds that",
+      "page": 18
+    },
+    {
+      "level": "H2",
+      "text": "it is overly specific and it fails to cover the positive example.",
+      "page": 18
+    },
+    {
+      "level": "H2",
+      "text": "\u2022",
+      "page": 18
+    },
+    {
+      "level": "H2",
+      "text": "The boundary is therefore revised by moving it to the least more general",
+      "page": 18
+    },
+    {
+      "level": "H2",
+      "text": "hypothesis that covers this new example.",
+      "page": 18
+    },
+    {
+      "level": "H2",
+      "text": "\u2022",
+      "page": 18
+    },
+    {
+      "level": "H2",
+      "text": "No update of the G boundary is needed in response to this training example",
+      "page": 18
+    },
+    {
+      "level": "H2",
+      "text": "because Go correctly covers this example.",
+      "page": 18
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 18
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 18
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 18
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 18
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 18
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 18
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 18
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 18
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 18
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 18
+    },
+    {
+      "level": "H1",
+      "text": "",
+      "page": 18
+    },
+    {
+      "level": "H2",
+      "text": "\u2022",
+      "page": 18
+    },
+    {
+      "level": "H2",
+      "text": "When the second training example is observed, it has a similar effect of",
+      "page": 18
+    },
+    {
+      "level": "H2",
+      "text": "generalizing S further to S2, leaving G again unchanged i.e., G2 = G1 =G0",
+      "page": 18
+    },
+    {
+      "level": "H3",
+      "text": "Department of CSE",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "MRCET",
+      "page": 19
+    },
+    {
+      "level": "H2",
+      "text": "\u2022",
+      "page": 19
+    },
+    {
+      "level": "H2",
+      "text": "Consider the third training example. This negative example reveals that the",
+      "page": 19
+    },
+    {
+      "level": "H2",
+      "text": "boundary of the version space is overly general, that is, the hypothesis in G",
+      "page": 19
+    },
+    {
+      "level": "H2",
+      "text": "incorrectly predicts that this new example is a positive example.",
+      "page": 19
+    },
+    {
+      "level": "H2",
+      "text": "\u2022",
+      "page": 19
+    },
+    {
+      "level": "H2",
+      "text": "The hypothesis in the G boundary must therefore be specialized until it",
+      "page": 19
+    },
+    {
+      "level": "H2",
+      "text": "correctly classifies this new negative example.",
+      "page": 19
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 19
+    },
+    {
+      "level": "H1",
+      "text": "",
+      "page": 19
+    },
+    {
+      "level": "H2",
+      "text": "Given that there are six attributes that could be specified to specialize G2,",
+      "page": 19
+    },
+    {
+      "level": "H2",
+      "text": "why are there only three new hypotheses in G3?",
+      "page": 19
+    },
+    {
+      "level": "H1",
+      "text": "",
+      "page": 19
+    },
+    {
+      "level": "H2",
+      "text": "For example, the hypothesis h = (?, ?, Normal, ?, ?, ?) is a minimal",
+      "page": 19
+    },
+    {
+      "level": "H2",
+      "text": "specialization of G2 that correctly labels the new example as a negative",
+      "page": 19
+    },
+    {
+      "level": "H2",
+      "text": "example, but it is not included in G3. The reason this hypothesis is excluded",
+      "page": 19
+    },
+    {
+      "level": "H2",
+      "text": "is that it is inconsistent with the previously encountered positive examples.",
+      "page": 19
+    },
+    {
+      "level": "H2",
+      "text": "Consider the fourth training example.",
+      "page": 19
+    },
+    {
+      "level": "H3",
+      "text": "Department of CSE",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "text": "MRCET",
+      "page": 20
+    },
+    {
+      "level": "H2",
+      "text": "\u2022",
+      "page": 20
+    },
+    {
+      "level": "H2",
+      "text": "This positive example further generalizes the S boundary of the version",
+      "page": 20
+    },
+    {
+      "level": "H2",
+      "text": "space. It also results in removing one member of the G boundary, because",
+      "page": 20
+    },
+    {
+      "level": "H2",
+      "text": "this member fails to cover the new positive example After processing these",
+      "page": 20
+    },
+    {
+      "level": "H2",
+      "text": "four examples, the boundary sets S4 and G4 delimit the version space of all",
+      "page": 20
+    },
+    {
+      "level": "H2",
+      "text": "hypotheses consistent with the set of incrementally observed training",
+      "page": 20
+    },
+    {
+      "level": "H2",
+      "text": "examples.",
+      "page": 20
+    },
+    {
+      "level": "H2",
+      "text": "\u2022",
+      "page": 20
+    },
+    {
+      "level": "H2",
+      "text": "After processing these four examples, the boundary sets S4 and G4 delimit",
+      "page": 20
+    },
+    {
+      "level": "H2",
+      "text": "the version space of all hypotheses consistent with the set of incrementally",
+      "page": 20
+    },
+    {
+      "level": "H2",
+      "text": "observed training examples.",
+      "page": 20
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 20
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 20
+    },
+    {
+      "level": "H2",
+      "text": "Inductive bias:",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "text": "Department of CSE",
+      "page": 21
+    },
+    {
+      "level": "H3",
+      "text": "MRCET",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "Decision Tre : e  Decision Trees are a type of Supervised Machine Learning (that",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "is you explain what the input is and what the corresponding output is in the",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "training data) where th e data is continuously split according to a certain",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "parameter. The tree can be explained by two entities, namely decision nodes and",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "leaves. The leaves are the decisions or the final outcomes. And the decision nodes",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "are where the data is split.",
+      "page": 21
+    },
+    {
+      "level": "H1",
+      "text": "",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "Decision Tree Representation:",
+      "page": 21
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 21
+    },
+    {
+      "level": "H1",
+      "text": "",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "An example of a decision tree can be explained using above binary tree. Let\u2019s say",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "you want to predict whether a person is fit given their information like age, eating",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "habit, and physical activity, etc. The decision nodes here are questions like",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "\u2018What\u2019s the age?\u2019, \u2018Does he exercise?\u2019, and \u2018Does he eat a lot of pizzas\u2019? And the",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "leaves, which are outcomes like either \u2018fit\u2019, or \u2018unfit\u2019. In this case this was a",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "binary classification problem (a yes no type problem). There are two main types",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "of Decision Trees:",
+      "page": 21
+    },
+    {
+      "level": "H1",
+      "text": "",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "1.   Classification trees (Yes/No types):",
+      "page": 21
+    },
+    {
+      "level": "H1",
+      "text": "",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "What we have seen above is an example of classification tree, where the",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "outcome was a variable like \u2018fit\u2019 or \u2018unfit\u2019. Here the decision variable is",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "Categorical.",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "Inductive bias refers to the restriction 2 s 2  that are imposed by the assumptions",
+      "page": 21
+    },
+    {
+      "level": "H3",
+      "text": "Department of CSE",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "MRCET",
+      "page": 22
+    },
+    {
+      "level": "H2",
+      "text": "Here the decision or the outcome variable is Continuous, e.g. a number like",
+      "page": 22
+    },
+    {
+      "level": "H2",
+      "text": "123. Working Now that we know what a Decision Tree is, we\u2019ll see how it",
+      "page": 22
+    },
+    {
+      "level": "H2",
+      "text": "works internally. There are many algorithms out there which construct",
+      "page": 22
+    },
+    {
+      "level": "H2",
+      "text": "Decision Trees, but one of the best is called as ID3 Algorithm. ID3 Stands",
+      "page": 22
+    },
+    {
+      "level": "H2",
+      "text": "for Iterative Dichotomiser3.",
+      "page": 22
+    },
+    {
+      "level": "H1",
+      "text": "",
+      "page": 22
+    },
+    {
+      "level": "H2",
+      "text": "Before discussing the ID3 algorithm, we\u2019ll go through few definitions.",
+      "page": 22
+    },
+    {
+      "level": "H2",
+      "text": "Entropy, also called as Shannon Entropy is denoted by H(S) for a finite set S,",
+      "page": 22
+    },
+    {
+      "level": "H2",
+      "text": "is the measure of the amount of uncertainty or randomness in data.",
+      "page": 22
+    },
+    {
+      "level": "H1",
+      "text": "",
+      "page": 22
+    },
+    {
+      "level": "H2",
+      "text": "Appropriate Problems for Decision Tree Learning:",
+      "page": 22
+    },
+    {
+      "level": "H2",
+      "text": "Instances are represented by attribute-value pair",
+      "page": 22
+    },
+    {
+      "level": "H2",
+      "text": "The target function has discrete output values",
+      "page": 22
+    },
+    {
+      "level": "H2",
+      "text": "Disjunctive descriptions may be required",
+      "page": 22
+    },
+    {
+      "level": "H2",
+      "text": "The training data may contain errors",
+      "page": 22
+    },
+    {
+      "level": "H2",
+      "text": "The training data may contain missing attribute values.",
+      "page": 22
+    },
+    {
+      "level": "H2",
+      "text": "Suitable for classifications.",
+      "page": 22
+    },
+    {
+      "level": "H1",
+      "text": "",
+      "page": 22
+    },
+    {
+      "level": "H2",
+      "text": "Hypothesis Space Search:",
+      "page": 22
+    },
+    {
+      "level": "H1",
+      "text": "",
+      "page": 22
+    },
+    {
+      "level": "H2",
+      "text": "The set of possible decision tree, Simple to complex, hill climbing search.",
+      "page": 22
+    },
+    {
+      "level": "H2",
+      "text": "Capability:",
+      "page": 22
+    },
+    {
+      "level": "H2",
+      "text": "Hypothesis space of all decision trees is a complete space of finite discrete",
+      "page": 22
+    },
+    {
+      "level": "H2",
+      "text": "valued functions.",
+      "page": 22
+    },
+    {
+      "level": "H1",
+      "text": "",
+      "page": 22
+    },
+    {
+      "level": "H2",
+      "text": "ID3 maintains only a single current hypothesis.",
+      "page": 22
+    },
+    {
+      "level": "H1",
+      "text": "",
+      "page": 22
+    },
+    {
+      "level": "H2",
+      "text": "Cannot determine how many alternative decision trees are consistent with",
+      "page": 22
+    },
+    {
+      "level": "H2",
+      "text": "the available training data.",
+      "page": 22
+    },
+    {
+      "level": "H3",
+      "text": "Department of CSE",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "MRCET",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "text": "ID3 uses all training example at each step to make statistically based",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "text": "decisions regarding how to refine its current hypothesis.",
+      "page": 23
+    },
+    {
+      "level": "H1",
+      "text": "",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "text": "The resulting search is much less sensitive to errors in individual training",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "text": "examples.",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "text": "Inductive Bias in Decision Tree Learning:  Note H is the power set of",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "text": "instances X",
+      "page": 23
+    },
+    {
+      "level": "H1",
+      "text": "",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "text": "Inductive Bias in ID3 \u2013 Approximate inductive bias of ID3",
+      "page": 23
+    },
+    {
+      "level": "H1",
+      "text": "",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "text": "\uf0a2   Shorter trees are preferred over larger tress",
+      "page": 23
+    },
+    {
+      "level": "H1",
+      "text": "",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "text": "\uf0a2   BFS-ID3",
+      "page": 23
+    },
+    {
+      "level": "H1",
+      "text": "",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "text": "Difference between (ID3 & C-E) && Restriction bias and Preference",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "text": "bias",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "text": "ID3",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "text": "Candidate-Elimination",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "text": "Searches a complete hypothesis space",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "text": "incompletely",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "text": "Searches an incomplete hypothesis",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "text": "space completely",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "text": "Inductive bias is solely a consequence",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "text": "of the ordering of hypotheses by its",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "text": "search strategy",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "text": "Inductive bias is solely a",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "text": "consequence of the expressive",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "text": "power of its hypothesis",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "text": "representation",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "text": "sss",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "text": "Restriction bias",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "text": "Preference bias",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "text": "Candidate-Elimination",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "text": "ID3",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "text": "Categorical restriction on the set of",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "text": "hypotheses considered",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "text": "Preference for certain hypotheses",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "text": "over others",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "Department of CSE",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "MRCET",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "UNIT-II",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "Artificial Neural Networks",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "Introduction:",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "Artificial Neural Networks (ANN)  are algorithms based on brain function",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "and are used to model complicated patterns and forecast issues. The Artificial",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "Neural Network (ANN) is a deep learning method that arose from the",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "concept of the human brain Biological Neural Networks. The development of",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "ANN was the result of an attempt to replicate the workings of the human",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "brain. The workings of ANN are extremely similar to those of biological",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "neural networks, although they are not identical. ANN algorithm accepts",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "only numeric and structured data.",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "The ANN applications:",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "Classification, the aim is to predict the class of an input vector",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "\u2022  Pattern matching, the aim is to produce a pattern best associated with a given",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "input vector.",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "\u2022  Pattern completion, the aim is to complete the missing parts of a given input",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "vector.",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "\u2022  Optimization, the aim is to find the optimal values of parameters in an",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "optimization problem.",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "\u2022  Control, an appropriate action is suggested based on given an input vectors",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "\u2022  Function approximation/times series modelling, the aim is to learn the",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "functional relationships between input and desired output vectors.",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "\u2022  Data mining, with the aim of discovering hidden patterns from data",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "(knowledge discovery).  ANN architectures",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "\u2022  Neural Networks are known to be universal function approximators",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "\u2022  Various architectures are available to approximate any nonlinear function",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "\u2022  Different architectures allow for generation of functions of different",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "complexity and power",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "\uf0a2   Feed forward networks",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "\uf0a2   Feedback networks",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "\uf0a2   Lateral networks",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "Department of CSE",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "text": "MRCET",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "Advantages of Artificial Neural Networks",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "Attribute-value pairs are used to represent problems in ANN.",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "1.   The output of ANNs can be discrete-valued, real-valued, or a vector of",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "multiple real or discrete-valued characteristics, while the target function can",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "be discrete-valued, real-valued, or a vector of numerous real or discrete-",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "valued attributes.",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "2.   Noise in the training data is not a problem for ANN learning techniques.",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "There may be mistakes in the training samples, but they will not affect the",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "final result.",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "3.   It\u2019s utilized when a quick assessment of the taught target function is",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "necessary.",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "4.   The number of weights in the network.",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "5.   the number of training instances evaluated, and the settings of different",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "learning algorithm parameters can all contribute to extended training periods",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "for ANNs.",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "Disadvantages of Artificial Neural Networks",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "1.   Hardware Dependence:",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "\u2022",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "The construction of Artificial Neural Networks necessitates the use",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "of",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "parallel processors.",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "\u2022",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "As a result, the equipment\u2019s realization is contingent.",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "2.   Understanding the network\u2019s operation:",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "\u2022",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "This is the most serious issue with ANN.",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "\u2022",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "When ANN provides a probing answer, it does not explain why or how it",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "was chosen.",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "\u2022",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "As a result, the network\u2019s confidence is eroded.",
+      "page": 25
+    },
+    {
+      "level": "H2",
+      "text": "3.   Assured network structure:",
+      "page": 25
+    },
+    {
+      "level": "H3",
+      "text": "Department of CSE",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "MRCET",
+      "page": 26
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  Any precise rule does not determine the structure of artificial neural",
+      "page": 26
+    },
+    {
+      "level": "H2",
+      "text": "networks.",
+      "page": 26
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  Experience and trial and error are used to develop a suitable network",
+      "page": 26
+    },
+    {
+      "level": "H2",
+      "text": "structure.",
+      "page": 26
+    },
+    {
+      "level": "H2",
+      "text": "4.   Difficulty in presenting the issue to the network:",
+      "page": 26
+    },
+    {
+      "level": "H2",
+      "text": "\u2022",
+      "page": 26
+    },
+    {
+      "level": "H2",
+      "text": "ANNs are capable of working with numerical data.",
+      "page": 26
+    },
+    {
+      "level": "H2",
+      "text": "\u2022",
+      "page": 26
+    },
+    {
+      "level": "H2",
+      "text": "Before being introduced to ANN, problems must be converted into",
+      "page": 26
+    },
+    {
+      "level": "H2",
+      "text": "numerical values.",
+      "page": 26
+    },
+    {
+      "level": "H2",
+      "text": "\u2022",
+      "page": 26
+    },
+    {
+      "level": "H2",
+      "text": "The display method that is chosen will have a direct impact on the network\u2019s",
+      "page": 26
+    },
+    {
+      "level": "H2",
+      "text": "performance.",
+      "page": 26
+    },
+    {
+      "level": "H2",
+      "text": "\u2022",
+      "page": 26
+    },
+    {
+      "level": "H2",
+      "text": "The user\u2019s skill is a factor here.",
+      "page": 26
+    },
+    {
+      "level": "H2",
+      "text": "5.   The network\u2019s lifetime is unknown:  \u2022  When the network\u2019s error on the",
+      "page": 26
+    },
+    {
+      "level": "H2",
+      "text": "sample is decreased to a specific amount, the training is complete.",
+      "page": 26
+    },
+    {
+      "level": "H2",
+      "text": "\u2022",
+      "page": 26
+    },
+    {
+      "level": "H2",
+      "text": "The value does not produce the best outcomes.",
+      "page": 26
+    },
+    {
+      "level": "H2",
+      "text": "Appropriate Problems for Neural Network Learning:",
+      "page": 26
+    },
+    {
+      "level": "H2",
+      "text": "1.   Instances are represented by many attribute-value pairs (e.g., the pixels of a",
+      "page": 26
+    },
+    {
+      "level": "H2",
+      "text": "picture. ALVINN [Mitchell, p. 84]).",
+      "page": 26
+    },
+    {
+      "level": "H2",
+      "text": "2.   The target function output may be discrete-valued, real-valued, or a vector of",
+      "page": 26
+    },
+    {
+      "level": "H2",
+      "text": "several real- or discrete-valued attributes.",
+      "page": 26
+    },
+    {
+      "level": "H2",
+      "text": "3.   The training examples may contain errors.",
+      "page": 26
+    },
+    {
+      "level": "H2",
+      "text": "4.   Long training times are acceptable.",
+      "page": 26
+    },
+    {
+      "level": "H2",
+      "text": "5.   Fast evaluation of the learned target function may be required.",
+      "page": 26
+    },
+    {
+      "level": "H2",
+      "text": "6.   The ability for humans to understand the learned target function is not",
+      "page": 26
+    },
+    {
+      "level": "H2",
+      "text": "important.",
+      "page": 26
+    },
+    {
+      "level": "H2",
+      "text": "History of Neural Networks:",
+      "page": 26
+    },
+    {
+      "level": "H2",
+      "text": "1.   1943: McCulloch and Pitts proposed a model of a neuron Perceptron (read",
+      "page": 26
+    },
+    {
+      "level": "H2",
+      "text": "[Mitchell, section 4.4])",
+      "page": 26
+    },
+    {
+      "level": "H2",
+      "text": "2.   1960s: Widrow and Hoff explored Perceptron networks (which they called",
+      "page": 26
+    },
+    {
+      "level": "H2",
+      "text": "\u201cAdelines\u201d) and the delta rule.",
+      "page": 26
+    },
+    {
+      "level": "H2",
+      "text": "3.   1962: Rosenblatt proved the convergence of the perceptron training rule.",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "Department of CSE",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "MRCET",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "4.   1969: Minsky and Papert showed that the Perceptron cannot deal with",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "nonlinearly-separable data sets---even those that represent simple function",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "such as X-OR.",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "5.   1970-1985: Very little research on Neural Nets",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "6.   1986: Invention of Backpropagation Rumelhart and McClelland, but also",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "Parker and earlier on: Werbos which can learn from nonlinearly-separable",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "data sets.",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "7.   Since 1985: A lot of research in Neural Nets !",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 27
+    },
+    {
+      "level": "H1",
+      "text": "",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "Multilayer Neural Network:",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  A multiplayer perceptron is a feed forward neural network with one or more",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "hidden layers",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  The network consists of an input layer of source neurons, at least one hidden",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "layer of computational neurons, and an output layer of computational",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "neurons.",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  The input signals are propagated in a forward direction on a layer-by-layer",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "basis.",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  Neurons in the hidden layer cannot be observed through input/output",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "behaviour of the network.",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  There is no obvious way to know what the desired output of the hidden layer",
+      "page": 27
+    },
+    {
+      "level": "H2",
+      "text": "should be.",
+      "page": 27
+    },
+    {
+      "level": "H3",
+      "text": "Department of CSE",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "MRCET",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "Department of CSE",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "MRCET",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "Department of CSE",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "MRCET",
+      "page": 30
+    },
+    {
+      "level": "H2",
+      "text": "Back propagation: Overview",
+      "page": 30
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  Back propagation works by applying the  gradient descent  rule to a feed",
+      "page": 30
+    },
+    {
+      "level": "H2",
+      "text": "forward network.",
+      "page": 30
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  The algorithm is composed of two parts that get repeated over and over until",
+      "page": 30
+    },
+    {
+      "level": "H2",
+      "text": "a pre-set maximal number of  epochs ,  EP max .",
+      "page": 30
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  Part I, the  feed forward  pass: the activation values of the hidden and then",
+      "page": 30
+    },
+    {
+      "level": "H2",
+      "text": "output units are computed.",
+      "page": 30
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  Part II, the  back propagation  pass: the weights of the network are updated-",
+      "page": 30
+    },
+    {
+      "level": "H2",
+      "text": "starting with the hidden to output weights and followed by the input to",
+      "page": 30
+    },
+    {
+      "level": "H2",
+      "text": "hidden weights--with respect to the sum of squares error and through a series",
+      "page": 30
+    },
+    {
+      "level": "H2",
+      "text": "of weight update rules called the  Delta Rule .",
+      "page": 30
+    },
+    {
+      "level": "H2",
+      "text": "Definition:",
+      "page": 30
+    },
+    {
+      "level": "H2",
+      "text": "The Back propagation algorithm in neural network computes the gradient of",
+      "page": 30
+    },
+    {
+      "level": "H2",
+      "text": "the loss function for a single weight by the chain rule. It efficiently computes",
+      "page": 30
+    },
+    {
+      "level": "H2",
+      "text": "one layer at a time, unlike a native direct computation. It computes the",
+      "page": 30
+    },
+    {
+      "level": "H2",
+      "text": "gradient, but it does not define how the gradient is used. It generalizes the",
+      "page": 30
+    },
+    {
+      "level": "H2",
+      "text": "computation in the delta rule.",
+      "page": 30
+    },
+    {
+      "level": "H2",
+      "text": "Consider the following Back propagation neural network example diagram to",
+      "page": 30
+    },
+    {
+      "level": "H2",
+      "text": "understand:",
+      "page": 30
+    },
+    {
+      "level": "H3",
+      "text": "Department of CSE",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "MRCET",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 31
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  Inputs X, arrive through the preconnected path",
+      "page": 31
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  Input is modelled using real weights W. The weights are usually randomly",
+      "page": 31
+    },
+    {
+      "level": "H2",
+      "text": "selected.",
+      "page": 31
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  Calculate the output for every neuron from the input layer, to the hidden",
+      "page": 31
+    },
+    {
+      "level": "H2",
+      "text": "layers, to the output layer.",
+      "page": 31
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  Calculate the error in the outputs",
+      "page": 31
+    },
+    {
+      "level": "H2",
+      "text": "Error B = Actual Output \u2013 Desired Output",
+      "page": 31
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  Travel back from the output layer to the hidden layer to adjust the weights",
+      "page": 31
+    },
+    {
+      "level": "H2",
+      "text": "such that the error is decreased.",
+      "page": 31
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  Keep repeating the process until the desired output is achieved",
+      "page": 31
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 31
+    },
+    {
+      "level": "H2",
+      "text": "Why We Need Back propagation?",
+      "page": 31
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  Most prominent advantages of Back propagation are:",
+      "page": 31
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  Back propagation is fast, simple and easy to program",
+      "page": 31
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  It has no parameters to tune apart from the numbers of input",
+      "page": 31
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  It is a flexible method as it does not require prior knowledge about the",
+      "page": 31
+    },
+    {
+      "level": "H2",
+      "text": "network",
+      "page": 31
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  It is a standard method that generally works well",
+      "page": 31
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  It does not need any special mention of the features of the function to be",
+      "page": 31
+    },
+    {
+      "level": "H2",
+      "text": "learned.",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "1. Inputs X, arrive through the preconnected path",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "Department of CSE",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "MRCET",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "Types of Back propagation Networks",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "Two Types of Back propagation Networks are:",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  Static Back-propagation",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  Recurrent Back propagation  Static back-propagation :",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "It is one kind of back propagation network which produces a mapping of a",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "static input for static output. It is useful to solve static classification issues",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "like optical character recognition.",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "Recurrent Back propagation:",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "Recurrent Back propagation in data mining is fed forward until a fixed value",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "is achieved. After that, the error is computed and propagated backward.",
+      "page": 32
+    },
+    {
+      "level": "H1",
+      "text": "",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "Disadvantages of using Back propagation",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  The actual performance of back propagation on a specific problem is",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "dependent on the input data.",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  Back propagation algorithm in data mining can be quite sensitive to noisy",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "data",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  You need to use the matrix-based approach for back propagation instead of",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "mini-batch.",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "Back propagation: The Algorithm",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  Initialize the weights to small random values; create a random pool of all the",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "training patterns; set  EP , the number of epochs of training to 0.",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  2. Pick a training pattern from the remaining pool of patterns and propagate",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "it forward through the network.",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  3. Compute the deltas, k for the output layer.",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  4. Compute the deltas,",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "backward.",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "for the hidden  layer by propagating  the error",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  Update all the connections such that",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  W  New ji",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "= wji old",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "+ wji and w  New kj",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "= wkj Old",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "+ wkj",
+      "page": 32
+    },
+    {
+      "level": "H2",
+      "text": "j",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "Department of CSE",
+      "page": 33
+    },
+    {
+      "level": "H3",
+      "text": "MRCET",
+      "page": 33
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  If any pattern remains in the pool, then go back to Step 2. If all the training",
+      "page": 33
+    },
+    {
+      "level": "H2",
+      "text": "patterns in the pool have been used, then set EP = EP+1, and if EP EPMax,",
+      "page": 33
+    },
+    {
+      "level": "H2",
+      "text": "then create a random pool of patterns and go to Step 2. If EP = EPMax, then",
+      "page": 33
+    },
+    {
+      "level": "H2",
+      "text": "stop.",
+      "page": 33
+    },
+    {
+      "level": "H1",
+      "text": "",
+      "page": 33
+    },
+    {
+      "level": "H2",
+      "text": "Back propagation: The Momentum:",
+      "page": 33
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  To this point, Back propagation has the disadvantage of being too slow if",
+      "page": 33
+    },
+    {
+      "level": "H2",
+      "text": "is",
+      "page": 33
+    },
+    {
+      "level": "H2",
+      "text": "small and it can oscillate too widely if is large.",
+      "page": 33
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  To solve this problem, we can add a  momentum  to give each connection",
+      "page": 33
+    },
+    {
+      "level": "H2",
+      "text": "some inertia, forcing it to change in the direction of the downhill \u201cforce\u201d.",
+      "page": 33
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  New Delta Rule:",
+      "page": 33
+    },
+    {
+      "level": "H2",
+      "text": "wpq(t+1) = -    E/ wpq +    wpq(t)",
+      "page": 33
+    },
+    {
+      "level": "H2",
+      "text": "\u2022  Where p and q are any input and hidden, or, hidden and output units; t is a",
+      "page": 33
+    },
+    {
+      "level": "H2",
+      "text": "time step or epoch; and",
+      "page": 33
+    },
+    {
+      "level": "H2",
+      "text": "is the momentum parameter which regulates the",
+      "page": 33
+    },
+    {
+      "level": "H2",
+      "text": "amount of inertia of the weights.",
+      "page": 33
+    },
+    {
+      "level": "H2",
+      "text": "UNIT - III",
+      "page": 34
+    },
+    {
+      "level": "H1",
+      "text": "",
+      "page": 34
+    },
+    {
+      "level": "H2",
+      "text": "Introduction to Bayesian Learning",
+      "page": 34
+    },
+    {
+      "level": "H1",
+      "text": "",
+      "page": 34
+    },
+    {
+      "level": "H2",
+      "text": "Imagine a situation where your friend gives you a new coin and asks you the",
+      "page": 34
+    },
+    {
+      "level": "H2",
+      "text": "fairness of the coin (or the probability of observing heads) without even",
+      "page": 34
+    },
+    {
+      "level": "H2",
+      "text": "flipping the coin once. In fact, you are also aware that your friend has not",
+      "page": 34
+    },
+    {
+      "level": "H2",
+      "text": "made the coin biased. In general, you have seen that coins are fair, thus you",
+      "page": 34
+    },
+    {
+      "level": "H2",
+      "text": "expect the probability of observing heads is 0.50.5. In the absence of any",
+      "page": 34
+    },
+    {
+      "level": "H2",
+      "text": "such observations, you assert the fairness of the coin only using your past",
+      "page": 34
+    },
+    {
+      "level": "H2",
+      "text": "experiences or observations with coins.",
+      "page": 34
+    },
+    {
+      "level": "H2",
+      "text": "Suppose that you are allowed to flip the coin 1010 times in order to",
+      "page": 34
+    },
+    {
+      "level": "H2",
+      "text": "determine the fairness of the coin. Your observations from the experiment",
+      "page": 34
+    },
+    {
+      "level": "H2",
+      "text": "will fall under one of the following cases:",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 34
+    },
+    {
+      "level": "H2",
+      "text": "Case 1 : observing 55 heads and 55 tails.",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 34
+    },
+    {
+      "level": "H2",
+      "text": "Case 2 : observing hh heads and 10\u2212h10\u2212h tails, where h\u226010\u2212hh\u226010\u2212h.",
+      "page": 34
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 34
+    },
+    {
+      "level": "H2",
+      "text": "If case 1 is observed, you are now more certain that the coin is a fair coin,",
+      "page": 34
+    },
+    {
+      "level": "H2",
+      "text": "and you will decide that the probability of observing heads is 0.50.5 with",
+      "page": 34
+    },
+    {
+      "level": "H2",
+      "text": "more confidence. If case 2 is observed you can either:",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "1.   Neglect your prior beliefs since now you have new data, decide the",
+      "page": 34
+    },
+    {
+      "level": "H2",
+      "text": "probability of observing heads is h/10h/10 by solely depending on recent",
+      "page": 34
+    },
+    {
+      "level": "H2",
+      "text": "observations.",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "2.   Adjust your belief accordingly to the value of hh that you have just observed,",
+      "page": 34
+    },
+    {
+      "level": "H2",
+      "text": "and decide the probability of observing heads using your recent observations.",
+      "page": 34
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 34
+    },
+    {
+      "level": "H2",
+      "text": "The first method suggests that we use the frequentist method, where we",
+      "page": 34
+    },
+    {
+      "level": "H2",
+      "text": "omit our beliefs when making decisions. However, the second method",
+      "page": 34
+    },
+    {
+      "level": "H2",
+      "text": "seems to be more convenient because 1010 coins are insufficient to",
+      "page": 34
+    },
+    {
+      "level": "H2",
+      "text": "determine the fairness of a coin. Therefore, we can make better decisions",
+      "page": 34
+    },
+    {
+      "level": "H2",
+      "text": "by combining our recent observations and beliefs that we have gained",
+      "page": 34
+    },
+    {
+      "level": "H2",
+      "text": "through our past experiences. It is this thinking model which uses our most",
+      "page": 34
+    },
+    {
+      "level": "H2",
+      "text": "recent observations together with our beliefs or inclination for critical",
+      "page": 34
+    },
+    {
+      "level": "H2",
+      "text": "thinking that is known as Bayesian thinking.",
+      "page": 34
+    },
+    {
+      "level": "H2",
+      "text": "Moreover, assume that your friend allows you to conduct another 1010 coin",
+      "page": 35
+    },
+    {
+      "level": "H2",
+      "text": "flips. Then we can use these new observations to further update our beliefs.",
+      "page": 35
+    },
+    {
+      "level": "H2",
+      "text": "As we gain more data, we can incrementally update our beliefs increasing",
+      "page": 35
+    },
+    {
+      "level": "H2",
+      "text": "the certainty of our conclusions. This is known as incremental learning,",
+      "page": 35
+    },
+    {
+      "level": "H2",
+      "text": "where you update your knowledge incrementally with new evidence.",
+      "page": 35
+    },
+    {
+      "level": "H2",
+      "text": "Bayesian learning comes into play on such occasions, where we are unable",
+      "page": 35
+    },
+    {
+      "level": "H2",
+      "text": "to use  frequentist statistics  due to the drawbacks that we have discussed",
+      "page": 35
+    },
+    {
+      "level": "H2",
+      "text": "above. We can use Bayesian learning to address all these drawbacks and",
+      "page": 35
+    },
+    {
+      "level": "H2",
+      "text": "even with additional capabilities (such as incremental updates of the",
+      "page": 35
+    },
+    {
+      "level": "H2",
+      "text": "posterior) when testing a hypothesis to estimate unknown parameters of a",
+      "page": 35
+    },
+    {
+      "level": "H2",
+      "text": "machine learning models. Bayesian learning uses Bayes\u2019 theorem to",
+      "page": 35
+    },
+    {
+      "level": "H2",
+      "text": "determine the conditional probability of a hypotheses given some evidence",
+      "page": 35
+    },
+    {
+      "level": "H2",
+      "text": "or observations.",
+      "page": 35
+    },
+    {
+      "level": "H2",
+      "text": "The Famous Coin Flip Experiment",
+      "page": 35
+    },
+    {
+      "level": "H1",
+      "text": "",
+      "page": 35
+    },
+    {
+      "level": "H2",
+      "text": "When we flip a coin, there are two possible outcomes - heads or tails. Of",
+      "page": 35
+    },
+    {
+      "level": "H2",
+      "text": "course, there is a third rare possibility where the coin balances on its edge",
+      "page": 35
+    },
+    {
+      "level": "H2",
+      "text": "without falling onto either side, which we assume is not a possible outcome",
+      "page": 35
+    },
+    {
+      "level": "H2",
+      "text": "of the coin flip for our discussion. We conduct a series of coin flips and",
+      "page": 35
+    },
+    {
+      "level": "H2",
+      "text": "record our observations i.e. the number of the heads (or tails) observed for a",
+      "page": 35
+    },
+    {
+      "level": "H2",
+      "text": "certain number of coin flips. In this experiment, we are trying to determine",
+      "page": 35
+    },
+    {
+      "level": "H2",
+      "text": "the fairness of the coin, using the number of heads (or tails) that we observe.",
+      "page": 35
+    },
+    {
+      "level": "H1",
+      "text": "",
+      "page": 35
+    },
+    {
+      "level": "H2",
+      "text": "Frequentist Statistics",
+      "page": 35
+    },
+    {
+      "level": "H1",
+      "text": "",
+      "page": 35
+    },
+    {
+      "level": "H2",
+      "text": "Let us think about how we can determine the fairness of the coin using our",
+      "page": 35
+    },
+    {
+      "level": "H2",
+      "text": "observations in the above mentioned experiment. Once we have conducted a",
+      "page": 35
+    },
+    {
+      "level": "H2",
+      "text": "sufficient number of coin flip trials, we can determine the frequency or the",
+      "page": 35
+    },
+    {
+      "level": "H2",
+      "text": "probability of observing the heads (or tails). If we observed heads and tails",
+      "page": 35
+    },
+    {
+      "level": "H2",
+      "text": "with equal frequencies or the probability of observing heads (or tails) is",
+      "page": 35
+    },
+    {
+      "level": "H2",
+      "text": "0.50.5, then it can be established that the coin is a fair coin. Failing that, it is",
+      "page": 35
+    },
+    {
+      "level": "H2",
+      "text": "a biased coin. Let's denote pp as the probability of observing the heads.",
+      "page": 35
+    },
+    {
+      "level": "H2",
+      "text": "Consequently, as the quantity that pp deviates from 0.50.5 indicates how",
+      "page": 35
+    },
+    {
+      "level": "H2",
+      "text": "biased the coin is, pp can be considered as the degree-of-fairness of the coin.",
+      "page": 35
+    },
+    {
+      "level": "H2",
+      "text": "Testing whether a hypothesis is true or false by calculating the probability",
+      "page": 36
+    },
+    {
+      "level": "H2",
+      "text": "of an event in a prolonged experiment is known as  frequentist statistics . As",
+      "page": 36
+    },
+    {
+      "level": "H2",
+      "text": "such, determining the fairness of a coin by using the probability of",
+      "page": 36
+    },
+    {
+      "level": "H2",
+      "text": "observing the heads is an example of  frequentist statistics  (a.k.a.  frequentist",
+      "page": 36
+    },
+    {
+      "level": "H2",
+      "text": "approach ).",
+      "page": 36
+    },
+    {
+      "level": "H2",
+      "text": "Let us now further investigate the coin flip example using the  frequentist",
+      "page": 36
+    },
+    {
+      "level": "H2",
+      "text": "approach . Since we have not intentionally altered the coin, it is reasonable to",
+      "page": 36
+    },
+    {
+      "level": "H2",
+      "text": "assume that we are using an unbiased coin for the experiment. When we flip",
+      "page": 36
+    },
+    {
+      "level": "H2",
+      "text": "the coin 1010 times, we observe the heads 66 times. Therefore, the pp is",
+      "page": 36
+    },
+    {
+      "level": "H2",
+      "text": "0.60.6 (note that pp is the number of heads observed over the number of total",
+      "page": 36
+    },
+    {
+      "level": "H2",
+      "text": "coin flips). Hence, according to frequencies statistics, the coin is a biased",
+      "page": 36
+    },
+    {
+      "level": "H2",
+      "text": "coin \u2014 which opposes our assumption of a fair coin. Perhaps one of your",
+      "page": 36
+    },
+    {
+      "level": "H2",
+      "text": "friends who is more skeptical than you extends this experiment to 100100",
+      "page": 36
+    },
+    {
+      "level": "H2",
+      "text": "trails using the same coin. Then she observes heads 5555 times, which",
+      "page": 36
+    },
+    {
+      "level": "H2",
+      "text": "results in a different pp with 0.550.55. Even though the new value for pp",
+      "page": 36
+    },
+    {
+      "level": "H2",
+      "text": "does not change our previous conclusion (i.e. that the coin is biased), this",
+      "page": 36
+    },
+    {
+      "level": "H2",
+      "text": "observation raises several questions:",
+      "page": 36
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 36
+    },
+    {
+      "level": "H2",
+      "text": "How confident are we of pp being 0.60.6?",
+      "page": 36
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 36
+    },
+    {
+      "level": "H2",
+      "text": "How confident are of pp being 0.550.55?",
+      "page": 36
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 36
+    },
+    {
+      "level": "H2",
+      "text": "Which of these values is the accurate estimation of pp?",
+      "page": 36
+    },
+    {
+      "level": "H3",
+      "text": "Department of CSE",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "MRCET",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "Will pp continue to change when we further increase the number of coin flip",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "trails?",
+      "page": 37
+    },
+    {
+      "level": "H1",
+      "text": "",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "We cannot find out the exact answers to the first three questions using",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "frequentist statistics .  We may assume that true value of pp is closer to",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "0.550.55 than 0.60.6 because the former is computed using observations from",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "a considerable number of trials compared to what we used to compute the",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "latter. Yet there is no way of confirming that hypothesis. However, if we",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "further increase the number of trials, we may get a different probability from",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "both of the above values for observing the heads and eventually, we may",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "even discover that the coin is a fair coin.",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "Number",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "of",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "coin",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "Number of heads",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "Probability of observing heads",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "flips",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "10",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "6",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "0.6",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "50",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "29",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "0.58",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "100",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "55",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "0.55",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "200",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "94",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "0.47",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "500",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "245",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "0.49",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "Table 1 - Coin flip experiment results when increasing the number of",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "trials",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "Table 1 presents some of the possible outcomes of a hypothetical coin flip",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "experiment when we are increasing the number of trials. The fairness (pp) of",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "the coin changes when increasing the number of coin-flips in this experiment.",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "Our confidence of estimated pp may also increase when increasing the",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "number of coin-flips, yet the frequentist statistic does not facilitate any",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "indication of the confidence of the estimated pp value. We can attempt to",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "understand the importance of such a confident measure by studying the",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "following cases:",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "\u2022   An experiment with an infinite number of trials guarantees pp with absolute",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "accuracy (100% confidence). Yet, it is not practical to conduct an experiment",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "with an infinite number of trials and we should stop the experiment after a",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "sufficiently large number of trials. However, deciding the value of this",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "sufficient number of trials is a challenge when using  frequentist statistics .",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "If we can determine the confidence of the estimated pp value or the inferred",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "conclusion, in a situation where the number of trials is limited, this will allow",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "us to decide whether to accept the conclusion or to extend the experiment",
+      "page": 38
+    },
+    {
+      "level": "H2",
+      "text": "with more trials until it achieves sufficient confidence.",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 38
+    },
+    {
+      "level": "H2",
+      "text": "Moreover, we may have valuable insights or prior beliefs (for example, coins",
+      "page": 38
+    },
+    {
+      "level": "H2",
+      "text": "are usually fair and the coin used is not made biased intentionally, therefore",
+      "page": 38
+    },
+    {
+      "level": "H2",
+      "text": "p\u22480.5p\u22480.5) that describes the value of pp. Embedding that information can",
+      "page": 38
+    },
+    {
+      "level": "H2",
+      "text": "significantly improve the accuracy of the final conclusion. Such beliefs play a",
+      "page": 38
+    },
+    {
+      "level": "H2",
+      "text": "significant role in shaping the outcome of a hypothesis test especially when",
+      "page": 38
+    },
+    {
+      "level": "H2",
+      "text": "we have limited data. However, with  frequentist statistics , it is not possible to",
+      "page": 38
+    },
+    {
+      "level": "H2",
+      "text": "incorporate such beliefs or past experience to increase the accuracy of the",
+      "page": 38
+    },
+    {
+      "level": "H2",
+      "text": "hypothesis test.",
+      "page": 38
+    },
+    {
+      "level": "H2",
+      "text": "Some Terms to Understand",
+      "page": 38
+    },
+    {
+      "level": "H1",
+      "text": "",
+      "page": 38
+    },
+    {
+      "level": "H2",
+      "text": "Before delving into Bayesian learning, it is essential to understand the",
+      "page": 38
+    },
+    {
+      "level": "H2",
+      "text": "definition of some terminologies used. I will not provide lengthy explanations",
+      "page": 38
+    },
+    {
+      "level": "H2",
+      "text": "of the mathematical definition since there is a lot of widely available content",
+      "page": 38
+    },
+    {
+      "level": "H2",
+      "text": "that you can use to understand these concepts.",
+      "page": 38
+    },
+    {
+      "level": "H1",
+      "text": "",
+      "page": 38
+    },
+    {
+      "level": "H2",
+      "text": "Random variable (Stochastic variable) - In statistics, the random variable is a",
+      "page": 38
+    },
+    {
+      "level": "H2",
+      "text": "variable whose possible values are a result of a random event. Therefore,",
+      "page": 38
+    },
+    {
+      "level": "H2",
+      "text": "each possible value of a random variable has some probability attached to it",
+      "page": 38
+    },
+    {
+      "level": "H2",
+      "text": "to represent the likelihood of those values.",
+      "page": 38
+    },
+    {
+      "level": "H2",
+      "text": "Probability distribution - The function that defines the probability of different",
+      "page": 38
+    },
+    {
+      "level": "H2",
+      "text": "outcomes/values of a random variable. The continuous probability",
+      "page": 38
+    },
+    {
+      "level": "H2",
+      "text": "distributions are described using probability density functions whereas",
+      "page": 38
+    },
+    {
+      "level": "H2",
+      "text": "discrete probability distributions can be represented using probability mass",
+      "page": 38
+    },
+    {
+      "level": "H2",
+      "text": "functions.",
+      "page": 38
+    },
+    {
+      "level": "H2",
+      "text": "Conditional probability - This is a measure of probability P(A|B)P(A|B) of an",
+      "page": 38
+    },
+    {
+      "level": "H2",
+      "text": "event A given that another event B has occurred.",
+      "page": 38
+    },
+    {
+      "level": "H2",
+      "text": "Joint probability distribution",
+      "page": 38
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 38
+    },
+    {
+      "level": "H2",
+      "text": "Bayes\u2019 Theorem",
+      "page": 38
+    },
+    {
+      "level": "H1",
+      "text": "",
+      "page": 38
+    },
+    {
+      "level": "H2",
+      "text": "Bayes\u2019 theorem describes how the conditional probability of an event or a",
+      "page": 38
+    },
+    {
+      "level": "H2",
+      "text": "hypothesis can be computed using evidence and prior knowledge. It is similar",
+      "page": 38
+    },
+    {
+      "level": "H2",
+      "text": "to concluding that our code has no bugs given the evidence that it has passed",
+      "page": 38
+    },
+    {
+      "level": "H2",
+      "text": "all the test cases, including our prior belief that we have rarely observed any",
+      "page": 39
+    },
+    {
+      "level": "H2",
+      "text": "bugs in our code. However, this intuition goes beyond that simple hypothesis",
+      "page": 39
+    },
+    {
+      "level": "H2",
+      "text": "test where there are multiple events or hypotheses involved (let us not worry",
+      "page": 39
+    },
+    {
+      "level": "H2",
+      "text": "about this for the moment).",
+      "page": 39
+    },
+    {
+      "level": "H1",
+      "text": "",
+      "page": 39
+    },
+    {
+      "level": "H2",
+      "text": "The Bayes\u2019 theorem is given by:",
+      "page": 39
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 39
+    },
+    {
+      "level": "H1",
+      "text": "",
+      "page": 39
+    },
+    {
+      "level": "H2",
+      "text": "P(\u03b8|X)=P(X|\u03b8)P(\u03b8)P(X)P(\u03b8|X)=P(X|\u03b8)P(\u03b8)P(X)",
+      "page": 39
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 39
+    },
+    {
+      "level": "H1",
+      "text": "",
+      "page": 39
+    },
+    {
+      "level": "H2",
+      "text": "I will now explain each term in Bayes\u2019 theorem using the above example.",
+      "page": 39
+    },
+    {
+      "level": "H2",
+      "text": "Consider the hypothesis that there are no bugs in our code. \u03b8\u03b8 and XX denote",
+      "page": 39
+    },
+    {
+      "level": "H2",
+      "text": "that our code is bug free and passes all the test cases respectively.",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 39
+    },
+    {
+      "level": "H2",
+      "text": "P(\u03b8)P(\u03b8) - Prior Probability is the probability of the hypothesis \u03b8\u03b8 being true",
+      "page": 39
+    },
+    {
+      "level": "H2",
+      "text": "before applying the Bayes\u2019 theorem. Prior represents the beliefs that we have",
+      "page": 39
+    },
+    {
+      "level": "H2",
+      "text": "gained through past experience, which refers to either common sense or an",
+      "page": 39
+    },
+    {
+      "level": "H2",
+      "text": "outcome of Bayes\u2019 theorem for some past observations. For the example",
+      "page": 39
+    },
+    {
+      "level": "H2",
+      "text": "given, prior probability denotes the probability of observing no bugs in our",
+      "page": 39
+    },
+    {
+      "level": "H2",
+      "text": "code. However, since this is the first time we are applying Bayes\u2019 theorem,",
+      "page": 39
+    },
+    {
+      "level": "H2",
+      "text": "we have to decide the priors using other means",
+      "page": 39
+    },
+    {
+      "level": "H2",
+      "text": "(Otherwise we could use the previous posterior as the new prior). Let us",
+      "page": 39
+    },
+    {
+      "level": "H2",
+      "text": "assume that it is very unlikely to find bugs in our code because rarely have",
+      "page": 39
+    },
+    {
+      "level": "H2",
+      "text": "we observed bugs in our code in the past. With our past experience of",
+      "page": 39
+    },
+    {
+      "level": "H2",
+      "text": "observing fewer bugs in our code, we can assign our prior P(\u03b8)P(\u03b8) with a",
+      "page": 39
+    },
+    {
+      "level": "H2",
+      "text": "higher probability. However, for now, let us assume that P(\u03b8)=pP(\u03b8)",
+      "page": 39
+    },
+    {
+      "level": "H2",
+      "text": "This term depends on the test coverage of the test cases. Even though we do",
+      "page": 39
+    },
+    {
+      "level": "H2",
+      "text": "not know the value of this term without proper measurements, in order to",
+      "page": 39
+    },
+    {
+      "level": "H2",
+      "text": "continue this discussion let us assume that P(X|\u00ac\u03b8)=0.5P(X|\u00ac\u03b8)=0.5.",
+      "page": 39
+    },
+    {
+      "level": "H2",
+      "text": "Accordingly,",
+      "page": 39
+    },
+    {
+      "level": "H2",
+      "text": "P(X)=1\u00d7p+0.5\u00d7(1\u2212p)=0.5(1+p)P(X)=1\u00d7p+0.5\u00d7(1\u2212p)=0.5(1+p)",
+      "page": 39
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 39
+    },
+    {
+      "level": "H2",
+      "text": "P(\u03b8|X)P(\u03b8|X) - Posteriori probability denotes the conditional probability of",
+      "page": 39
+    },
+    {
+      "level": "H2",
+      "text": "the hypothesis \u03b8\u03b8 after observing the evidence XX. This is the probability of",
+      "page": 39
+    },
+    {
+      "level": "H2",
+      "text": "observing no bugs in our code given that it passes all the test cases. Since we",
+      "page": 39
+    },
+    {
+      "level": "H2",
+      "text": "now know the values for the other three terms in the Bayes\u2019 theorem, we can",
+      "page": 40
+    },
+    {
+      "level": "H2",
+      "text": "calculate the posterior probability using the following formula:",
+      "page": 40
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 40
+    },
+    {
+      "level": "H2",
+      "text": "P(\u03b8|X)=1\u00d7p0.5(1+p)P(\u03b8|X)=1\u00d7p0.5(1+p)",
+      "page": 40
+    },
+    {
+      "level": "H2",
+      "text": "We can also calculate the probability of observing a bug, given that our code",
+      "page": 40
+    },
+    {
+      "level": "H2",
+      "text": "passes all the test cases P(\u00ac\u03b8|X)P(\u00ac\u03b8|X) .",
+      "page": 40
+    },
+    {
+      "level": "H2",
+      "text": "P(\u00ac\u03b8|X)=P(X|\u00ac\u03b8).P(\u00ac\u03b8)P(X)=0.5\u00d7(1\u2212p)0.5\u00d7(1+p)=(1\u2212p)(1+p)P(\u00ac\u03b8|X)=P(X|\u00ac",
+      "page": 40
+    },
+    {
+      "level": "H2",
+      "text": "\u03b8).P(\u00ac\u03b8)",
+      "page": 40
+    },
+    {
+      "level": "H2",
+      "text": "P(X)=0.5\u00d7(1\u2212p)0.5\u00d7(1+p)=(1\u2212p)(1+p)",
+      "page": 40
+    },
+    {
+      "level": "H2",
+      "text": "We now know both conditional probabilities of observing a bug in the code",
+      "page": 40
+    },
+    {
+      "level": "H2",
+      "text": "and not observing the bug in the code. Yet how are we going to confirm the",
+      "page": 40
+    },
+    {
+      "level": "H2",
+      "text": "valid hypothesis using these posterior probabilities?",
+      "page": 40
+    },
+    {
+      "level": "H1",
+      "text": "",
+      "page": 40
+    },
+    {
+      "level": "H2",
+      "text": "Maximum a Posteriori (MAP)",
+      "page": 40
+    },
+    {
+      "level": "H1",
+      "text": "",
+      "page": 40
+    },
+    {
+      "level": "H2",
+      "text": "We can use MAP to determine the valid hypothesis from a set of hypotheses.",
+      "page": 40
+    },
+    {
+      "level": "H2",
+      "text": "According to MAP, the hypothesis that has the maximum posterior",
+      "page": 40
+    },
+    {
+      "level": "H2",
+      "text": "probability is considered as the valid hypothesis. Therefore, we can express",
+      "page": 40
+    },
+    {
+      "level": "H2",
+      "text": "the hypothesis \u03b8MAP\u03b8MAP that is concluded using MAP as follows:",
+      "page": 40
+    },
+    {
+      "level": "H2",
+      "text": "\u03b8MAP=argmax\u03b8P(\u03b8i|X)=argmax\u03b8(P(X|\u03b8i)P(\u03b8i)P(X))\u03b8MAP=argmax\u03b8P(\u03b8i|X)",
+      "page": 40
+    },
+    {
+      "level": "H2",
+      "text": "=argmax\u03b8(P(X|\u03b8 i)P(\u03b8i)P(X))",
+      "page": 40
+    },
+    {
+      "level": "H2",
+      "text": "The argmax\u03b8argmax\u03b8 operator estimates the event or hypothesis \u03b8i\u03b8i that",
+      "page": 40
+    },
+    {
+      "level": "H2",
+      "text": "maximizes the posterior probability P(\u03b8i|X)P(\u03b8i|X). Let us apply MAP to the",
+      "page": 40
+    },
+    {
+      "level": "H2",
+      "text": "above example in order to determine the true hypothesis:",
+      "page": 40
+    },
+    {
+      "level": "H2",
+      "text": "\u03b8MAP=argmax\u03b8{\u03b8:P(\u03b8|X)=p0.5(1+p),\u00ac\u03b8:P(\u00ac\u03b8|X)=(1\u2212p)(1+p)}\u03b8MAP=argma",
+      "page": 40
+    },
+    {
+      "level": "H2",
+      "text": "x\u03b8{\u03b8:P(\u03b8|X)=p0.5(1+p),\u00ac\u03b8:P(\u00ac\u03b8|X)=(1\u2212p)(1+p)}",
+      "page": 40
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 41
+    },
+    {
+      "level": "H2",
+      "text": "Figure 1 - P(\u03b8|X)P(\u03b8|X) and P(\u00ac\u03b8|X)P(\u00ac\u03b8|X) when changing the",
+      "page": 41
+    },
+    {
+      "level": "H2",
+      "text": "P(\u03b8)=pP(\u03b8)=p Figure 1 illustrates how the posterior probabilities of possible",
+      "page": 41
+    },
+    {
+      "level": "H2",
+      "text": "hypotheses change with the value of prior probability. Unlike  frequentist",
+      "page": 41
+    },
+    {
+      "level": "H2",
+      "text": "statistics  where our belief or past experience had no influence on the",
+      "page": 41
+    },
+    {
+      "level": "H2",
+      "text": "concluded hypothesis, Bayesian learning is capable of incorporating our",
+      "page": 41
+    },
+    {
+      "level": "H2",
+      "text": "belief to improve the accuracy of predictions. Assuming that we have fairly",
+      "page": 41
+    },
+    {
+      "level": "H2",
+      "text": "good programmers and therefore the probability of observing a bug is",
+      "page": 41
+    },
+    {
+      "level": "H2",
+      "text": "P(\u03b8)=0.4P(\u03b8)=0.4 , then we find the \u03b8MAP\u03b8MAP:",
+      "page": 41
+    },
+    {
+      "level": "H2",
+      "text": "MAP=argmax\u03b8{\u03b8:P(|X)=0.40.5(1+0.4),\u00ac\u03b8:P(\u00ac\u03b8|X)=0.5(1\u22120.4)0.5(1+0.4)}=ar",
+      "page": 41
+    },
+    {
+      "level": "H2",
+      "text": "gmax\u03b8{\u03b8:P(\u03b8|X)=0.57,\u00ac\u03b8:P(\u00ac\u03b8|X)=0.43}=\u03b8 \u27f9 No",
+      "page": 41
+    },
+    {
+      "level": "H2",
+      "text": "bugs",
+      "page": 41
+    },
+    {
+      "level": "H2",
+      "text": "present",
+      "page": 41
+    },
+    {
+      "level": "H2",
+      "text": "in",
+      "page": 41
+    },
+    {
+      "level": "H2",
+      "text": "our",
+      "page": 41
+    },
+    {
+      "level": "H2",
+      "text": "codeMAP=argmax\u03b8{\u03b8:P(|X)=0.40.5(1+0.4),\u00ac\u03b8:P(\u00ac\u03b8|X)=0.5(1\u22120.4)0.5(1+0.4",
+      "page": 41
+    },
+    {
+      "level": "H2",
+      "text": ")}=argmax\u03b8{\u03b8:P(\u03b8|X)=0.57,\u00ac\u03b8:P(\u00ac\u03b8|X)=0.43}=\u03b8 \u27f9 No bugs present in our",
+      "page": 41
+    },
+    {
+      "level": "H2",
+      "text": "code",
+      "page": 41
+    },
+    {
+      "level": "H2",
+      "text": "However, P(X)P(X) is independent of \u03b8\u03b8, and thus P(X)P(X) is same for all",
+      "page": 42
+    },
+    {
+      "level": "H2",
+      "text": "the events or hypotheses. Therefore, we can simplify the \u03b8MAP\u03b8MAP",
+      "page": 42
+    },
+    {
+      "level": "H2",
+      "text": "estimation, without the denominator of each posterior computation as shown",
+      "page": 42
+    },
+    {
+      "level": "H2",
+      "text": "below: \u03b8MAP=argmax\u03b8(P(X|\u03b8i)P(\u03b8i))\u03b8MAP=argmax\u03b8(P(X|\u03b8i)P(\u03b8i))",
+      "page": 42
+    },
+    {
+      "level": "H2",
+      "text": "Notice that MAP estimation algorithms do not compute posterior probability",
+      "page": 42
+    },
+    {
+      "level": "H2",
+      "text": "of each hypothesis to decide which is the most probable hypothesis.",
+      "page": 42
+    },
+    {
+      "level": "H2",
+      "text": "Assuming that our hypothesis space is continuous (i.e. fairness of the coin",
+      "page": 42
+    },
+    {
+      "level": "H2",
+      "text": "encoded as probability of observing heads, coefficient of a regression model,",
+      "page": 42
+    },
+    {
+      "level": "H2",
+      "text": "etc.), where endless possible hypotheses are present even in the smallest",
+      "page": 42
+    },
+    {
+      "level": "H2",
+      "text": "range that the human mind can think of, or for even a discrete hypothesis",
+      "page": 42
+    },
+    {
+      "level": "H2",
+      "text": "space with a large number of possible outcomes for an event, we do not need",
+      "page": 42
+    },
+    {
+      "level": "H2",
+      "text": "to find the posterior of each hypothesis in order to decide which is the most",
+      "page": 42
+    },
+    {
+      "level": "H2",
+      "text": "probable hypothesis. Therefore, the practical implementation of MAP",
+      "page": 42
+    },
+    {
+      "level": "H2",
+      "text": "estimation algorithms use approximation techniques, which are capable of",
+      "page": 42
+    },
+    {
+      "level": "H2",
+      "text": "finding the most probable hypothesis without computing posteriors or only",
+      "page": 42
+    },
+    {
+      "level": "H2",
+      "text": "by computing some of them.",
+      "page": 42
+    },
+    {
+      "level": "H1",
+      "text": "",
+      "page": 42
+    },
+    {
+      "level": "H2",
+      "text": "Using the Bayesian theorem, we can now incorporate our belief as the prior",
+      "page": 42
+    },
+    {
+      "level": "H2",
+      "text": "probability, which was not possible when we used  frequentist statistics .",
+      "page": 42
+    },
+    {
+      "level": "H2",
+      "text": "However, we still have the problem of deciding a sufficiently large number of",
+      "page": 42
+    },
+    {
+      "level": "H2",
+      "text": "trials or attaching a confidence to the concluded hypothesis. This is because",
+      "page": 42
+    },
+    {
+      "level": "H2",
+      "text": "the above example was solely designed to introduce the Bayesian theorem",
+      "page": 42
+    },
+    {
+      "level": "H2",
+      "text": "and each of its terms. Let us now gain a better understanding of",
+      "page": 42
+    },
+    {
+      "level": "H2",
+      "text": "Bayesian learning to learn about the full potential of Bayes\u2019 theorem.",
+      "page": 42
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 42
+    },
+    {
+      "level": "H2",
+      "text": "Binomial Likelihood",
+      "page": 42
+    },
+    {
+      "level": "H2",
+      "text": "The likelihood for the coin flip experiment is given by the probability of",
+      "page": 42
+    },
+    {
+      "level": "H2",
+      "text": "observing heads out of all the coin flips given the fairness of the coin. As we",
+      "page": 42
+    },
+    {
+      "level": "H2",
+      "text": "have defined the fairness of the coins (\u03b8\u03b8) using the probability of observing",
+      "page": 42
+    },
+    {
+      "level": "H2",
+      "text": "heads for each coin flip, we can define the probability of observing heads or",
+      "page": 42
+    },
+    {
+      "level": "H2",
+      "text": "tails given the fairness of the coin P(y|\u03b8)P(y|\u03b8) where y=1y=1 for observing",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "heads and y=0y=0 for observing tails. Accordingly:",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "P(y=1|\u03b8)=\u03b8P(y=0|\u03b8)=(1\u2212\u03b8)P(y=1|\u03b8)=\u03b8P(y=0|\u03b8)=(1\u2212\u03b8)",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "Now that we have defined two conditional probabilities for each outcome",
+      "page": 43
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "above, let us now try to find the P(Y=y|\u03b8)P(Y=y|\u03b8) joint probability of",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "observing heads or tails:",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "P(Y=y|\u03b8)={\u03b8, if y=11\u2212\u03b8, otherwise P(Y=y|\u03b8)={\u03b8, if y=11\u2212\u03b8, otherwise",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "Note that yy can only take either 00 or 11, and \u03b8\u03b8 will lie within the range of",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "[0,1][0,1]. We can rewrite the above expression in a single expression as",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "follows:",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "P(Y=y|\u03b8)=\u03b8y\u00d7(1\u2212\u03b8)1\u2212yP(Y=y|\u03b8)=\u03b8y\u00d7(1\u2212\u03b8)1\u2212y",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "The above equation represents the likelihood of a single test coin flip",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "experiment.",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "Interestingly, the likelihood function of the single coin flip experiment is",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "similar to the Bernoulli probability distribution. The Bernoulli distribution is",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "the probability distribution of a single trial experiment with only two",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "opposite   outcomes.   As   the   Bernoulli   probability   distribution   is   the",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "simplification of Binomial probability distribution for a single trail, we can",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "represent the likelihood of a coin flip experiment that we observe kk number",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "of heads out of NN number of trials as a Binomial probability distribution as",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "shown below:",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "P(k,N|\u03b8)=(Nk)\u03b8k(1\u2212\u03b8)N\u2212k",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "Maximum likelihood estimation method (MLE)",
+      "page": 44
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 44
+    },
+    {
+      "level": "H2",
+      "text": "The likelihood function indicates how likely the observed sample is as a",
+      "page": 44
+    },
+    {
+      "level": "H2",
+      "text": "function of possible parameter values. Therefore, maximizing the likelihood",
+      "page": 44
+    },
+    {
+      "level": "H2",
+      "text": "function determines the parameters that are most likely to produce the",
+      "page": 44
+    },
+    {
+      "level": "H2",
+      "text": "observed data. From a statistical point of view, MLE is usually recommended",
+      "page": 44
+    },
+    {
+      "level": "H2",
+      "text": "for large samples because it is versatile, applicable to most models and",
+      "page": 44
+    },
+    {
+      "level": "H2",
+      "text": "different types of data, and produces the most precise estimates.",
+      "page": 44
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 44
+    },
+    {
+      "level": "H2",
+      "text": "Least squares estimation method (LSE)",
+      "page": 44
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 44
+    },
+    {
+      "level": "H2",
+      "text": "Least squares estimates are calculated by fitting a regression line to the points",
+      "page": 44
+    },
+    {
+      "level": "H2",
+      "text": "from a data set that has the minimal sum of the deviations squared (least",
+      "page": 44
+    },
+    {
+      "level": "H2",
+      "text": "square error). In reliability analysis, the line and the data are plotted on a",
+      "page": 44
+    },
+    {
+      "level": "H2",
+      "text": "probability plot.",
+      "page": 44
+    },
+    {
+      "level": "H2",
+      "text": "Bayes Optimal Classifier",
+      "page": 44
+    },
+    {
+      "level": "H1",
+      "text": "",
+      "page": 44
+    },
+    {
+      "level": "H2",
+      "text": "The Bayes optimal classifier is a probabilistic model that makes the most",
+      "page": 44
+    },
+    {
+      "level": "H2",
+      "text": "probable prediction for a new example, given the training dataset.",
+      "page": 44
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 44
+    },
+    {
+      "level": "H2",
+      "text": "This model is also referred to as the Bayes optimal learner, the Bayes",
+      "page": 44
+    },
+    {
+      "level": "H2",
+      "text": "classifier, Bayes optimal decision boundary, or the Bayes optimal",
+      "page": 44
+    },
+    {
+      "level": "H2",
+      "text": "discriminant function.",
+      "page": 44
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 44
+    },
+    {
+      "level": "H2",
+      "text": "Gibbs Sampling Algorithm",
+      "page": 44
+    },
+    {
+      "level": "H2",
+      "text": "We start off by selecting an initial value for the random variables  X  &  Y .",
+      "page": 44
+    },
+    {
+      "level": "H2",
+      "text": "Then, we sample from the conditional probability distribution of X given Y =",
+      "page": 44
+    },
+    {
+      "level": "H2",
+      "text": "Y\u2070 denoted p(X|Y\u2070). In the next step, we sample a new value of Y conditional",
+      "page": 44
+    },
+    {
+      "level": "H2",
+      "text": "on X\u00b9, which we just computed. We repeat the procedure for an additional  n -",
+      "page": 44
+    },
+    {
+      "level": "H2",
+      "text": "1  iterations, alternating between drawing a new sample from the conditional",
+      "page": 44
+    },
+    {
+      "level": "H2",
+      "text": "probability distribution of X and the conditional probability distribution of Y,",
+      "page": 44
+    },
+    {
+      "level": "H2",
+      "text": "given the current value of the other random variable.",
+      "page": 44
+    },
+    {
+      "level": "H2",
+      "text": "Let\u2019s take a look at an example. Suppose we had the following posterior and",
+      "page": 45
+    },
+    {
+      "level": "H2",
+      "text": "conditional probability distributions.",
+      "page": 45
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 45
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 45
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 45
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 45
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 45
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 45
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 45
+    },
+    {
+      "level": "H2",
+      "text": "Naive Bayes Classifier Algorithm",
+      "page": 45
+    },
+    {
+      "level": "H2",
+      "text": "Na\u00efve Bayes algorithm is a supervised learning algorithm, which is based on",
+      "page": 45
+    },
+    {
+      "level": "H2",
+      "text": "Bayes",
+      "page": 45
+    },
+    {
+      "level": "H2",
+      "text": "theorem  and used for solving classification problems.",
+      "page": 45
+    },
+    {
+      "level": "H2",
+      "text": "It is mainly used in  text classification  that includes a high-dimensional",
+      "page": 46
+    },
+    {
+      "level": "H2",
+      "text": "training dataset.",
+      "page": 46
+    },
+    {
+      "level": "H2",
+      "text": "Na\u00efve Bayes Classifier is one of the simple and most effective Classification",
+      "page": 46
+    },
+    {
+      "level": "H2",
+      "text": "algorithms which helps in building the fast machine learning models that can",
+      "page": 46
+    },
+    {
+      "level": "H2",
+      "text": "make quick predictions.",
+      "page": 46
+    },
+    {
+      "level": "H2",
+      "text": "It is a probabilistic classifier, which means it predicts on the basis of the",
+      "page": 46
+    },
+    {
+      "level": "H2",
+      "text": "probability of an object .",
+      "page": 46
+    },
+    {
+      "level": "H2",
+      "text": "Some popular examples of Na\u00efve Bayes Algorithm are  spam filtration,",
+      "page": 46
+    },
+    {
+      "level": "H2",
+      "text": "Sentimental analysis, and classifying articles .",
+      "page": 46
+    },
+    {
+      "level": "H2",
+      "text": "EXAMPLE",
+      "page": 46
+    },
+    {
+      "level": "H2",
+      "text": "Suppose we have a dataset of  weather conditions  and corresponding target",
+      "page": 46
+    },
+    {
+      "level": "H2",
+      "text": "variable \" Play \". So using this dataset we need to decide that whether we",
+      "page": 46
+    },
+    {
+      "level": "H2",
+      "text": "should play or not on a particular day according to the weather conditions. So",
+      "page": 46
+    },
+    {
+      "level": "H2",
+      "text": "to solve this problem, we need to follow the below steps:",
+      "page": 46
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 46
+    },
+    {
+      "level": "H3",
+      "text": "1.   Convert the given dataset into frequency tables.",
+      "page": 46
+    },
+    {
+      "level": "H3",
+      "text": "2.   Generate Likelihood table by finding the probabilities of given features.",
+      "page": 46
+    },
+    {
+      "level": "H3",
+      "text": "3.   Now, use Bayes theorem to calculate the posterior probability.",
+      "page": 46
+    },
+    {
+      "level": "H2",
+      "text": "Problem : If the weather is sunny, then the Player should play or not?",
+      "page": 46
+    },
+    {
+      "level": "H2",
+      "text": "Solution : To solve this, first consider the below dataset:",
+      "page": 46
+    },
+    {
+      "level": "H3",
+      "text": "Outlook",
+      "page": 46
+    },
+    {
+      "level": "H3",
+      "text": "Play",
+      "page": 46
+    },
+    {
+      "level": "H3",
+      "text": "0",
+      "page": 46
+    },
+    {
+      "level": "H3",
+      "text": "Rainy",
+      "page": 46
+    },
+    {
+      "level": "H3",
+      "text": "Yes",
+      "page": 46
+    },
+    {
+      "level": "H3",
+      "text": "1",
+      "page": 46
+    },
+    {
+      "level": "H3",
+      "text": "Sunny",
+      "page": 46
+    },
+    {
+      "level": "H3",
+      "text": "Yes",
+      "page": 46
+    },
+    {
+      "level": "H3",
+      "text": "2",
+      "page": 46
+    },
+    {
+      "level": "H3",
+      "text": "Overcast",
+      "page": 46
+    },
+    {
+      "level": "H3",
+      "text": "Yes",
+      "page": 46
+    },
+    {
+      "level": "H3",
+      "text": "3",
+      "page": 46
+    },
+    {
+      "level": "H3",
+      "text": "Overcast",
+      "page": 46
+    },
+    {
+      "level": "H3",
+      "text": "Yes",
+      "page": 46
+    },
+    {
+      "level": "H3",
+      "text": "4",
+      "page": 46
+    },
+    {
+      "level": "H3",
+      "text": "Sunny",
+      "page": 46
+    },
+    {
+      "level": "H3",
+      "text": "No",
+      "page": 46
+    },
+    {
+      "level": "H3",
+      "text": "5",
+      "page": 46
+    },
+    {
+      "level": "H3",
+      "text": "Rainy",
+      "page": 46
+    },
+    {
+      "level": "H3",
+      "text": "Yes",
+      "page": 46
+    },
+    {
+      "level": "H3",
+      "text": "6",
+      "page": 46
+    },
+    {
+      "level": "H3",
+      "text": "Sunny",
+      "page": 46
+    },
+    {
+      "level": "H3",
+      "text": "Yes",
+      "page": 46
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 47
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 47
+    },
+    {
+      "level": "H2",
+      "text": "Frequency table for the Weather Conditions:",
+      "page": 47
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 47
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 47
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 47
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 47
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 47
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 47
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 47
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 47
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 47
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 47
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 47
+    },
+    {
+      "level": "H2",
+      "text": "Likelihood table weather condition:",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "Weather",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "No",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "Yes",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "Overcast",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "0",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "5",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "5/14= 0.35",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "Rainy",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "2",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "2",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "4/14=0.29",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "Sunny",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "2",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "3",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "5/14=0.35",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "All",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "4/14=0.29",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "10/14=0.71",
+      "page": 47
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 47
+    },
+    {
+      "level": "H2",
+      "text": "Applying Bayes'theorem:",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 47
+    },
+    {
+      "level": "H2",
+      "text": "P(Yes|Sunny)= P(Sunny|Yes)*P(Yes)/P(Sunny)",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "7",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "Overcast",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "Yes",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "8",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "Rainy",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "No",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "9",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "Sunny",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "No",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "10",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "Sunny",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "Yes",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "11",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "Rainy",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "No",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "12",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "Overcast",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "Yes",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "13",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "Overcast",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "Yes",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "Weather",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "Yes",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "No",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "Overcast",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "5",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "0",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "Rainy",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "2",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "2",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "Sunny",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "3",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "2",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "Total",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "10",
+      "page": 47
+    },
+    {
+      "level": "H3",
+      "text": "5",
+      "page": 47
+    },
+    {
+      "level": "H2",
+      "text": "P(Sunny|Yes)= 3/10= 0.3",
+      "page": 48
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 48
+    },
+    {
+      "level": "H2",
+      "text": "P(Sunny)= 0.35",
+      "page": 48
+    },
+    {
+      "level": "H2",
+      "text": "P(Yes)=0.71",
+      "page": 48
+    },
+    {
+      "level": "H2",
+      "text": "So P(Yes|Sunny) = 0.3*0.71/0.35=  0.60",
+      "page": 48
+    },
+    {
+      "level": "H2",
+      "text": "P(No|Sunny)= P(Sunny|No)*P(No)/P(Sunny)",
+      "page": 48
+    },
+    {
+      "level": "H2",
+      "text": "P(Sunny|NO)= 2/4=0.5",
+      "page": 48
+    },
+    {
+      "level": "H2",
+      "text": "P(No)= 0.29",
+      "page": 48
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 48
+    },
+    {
+      "level": "H2",
+      "text": "P(Sunny)= 0.35",
+      "page": 48
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 48
+    },
+    {
+      "level": "H2",
+      "text": "So P(No|Sunny)= 0.5*0.29/0.35 =  0.41",
+      "page": 48
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 48
+    },
+    {
+      "level": "H2",
+      "text": "Bayesian Belief Network:",
+      "page": 48
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 48
+    },
+    {
+      "level": "H3",
+      "text": "It is a graphical representation of different probabilistic relationships among",
+      "page": 48
+    },
+    {
+      "level": "H3",
+      "text": "random variables in a  particular set. It is a classifier with no dependency on",
+      "page": 48
+    },
+    {
+      "level": "H3",
+      "text": "attributes i.e it is condition independent. Due to its feature of joint probability, the",
+      "page": 48
+    },
+    {
+      "level": "H3",
+      "text": "probability in Bayesian Belief Network is derived, based on a condition \u2014",
+      "page": 48
+    },
+    {
+      "level": "H3",
+      "text": "P(attribute/parent) i.e probability of an attribute, true over parent attribute.",
+      "page": 48
+    },
+    {
+      "level": "H3",
+      "text": "Consider this example:",
+      "page": 48
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 48
+    },
+    {
+      "level": "H2",
+      "text": "In the above figure, we have an alarm \u2018A\u2019 \u2013 a node, say installed in a house",
+      "page": 48
+    },
+    {
+      "level": "H2",
+      "text": "of a person \u2018gfg\u2019, which rings upon two probabilities i.e burglary \u2018B\u2019 and fire",
+      "page": 48
+    },
+    {
+      "level": "H2",
+      "text": "\u2018F\u2019, which are \u2013 parent nodes of the alarm node. The alarm is the parent node",
+      "page": 49
+    },
+    {
+      "level": "H2",
+      "text": "of two probabilities P1 calls \u2018P1\u2019 & P2 calls \u2018P2\u2019 person nodes.",
+      "page": 49
+    },
+    {
+      "level": "H1",
+      "text": "",
+      "page": 49
+    },
+    {
+      "level": "H2",
+      "text": "Upon the instance of burglary and fire, \u2018P1\u2019 and \u2018P2\u2019 call person \u2018gfg\u2019,",
+      "page": 49
+    },
+    {
+      "level": "H2",
+      "text": "respectively. But, there are few drawbacks in this case, as sometimes \u2018P1\u2019",
+      "page": 49
+    },
+    {
+      "level": "H2",
+      "text": "may forget to call the person \u2018gfg\u2019, even after hearing the alarm, as he has a",
+      "page": 49
+    },
+    {
+      "level": "H2",
+      "text": "tendency to forget things, quick. Similarly, \u2018P2\u2019, sometimes fails to call the",
+      "page": 49
+    },
+    {
+      "level": "H2",
+      "text": "person \u2018gfg\u2019, as he is only able to hear the alarm, from a certain distance.",
+      "page": 49
+    },
+    {
+      "level": "H2",
+      "text": "Expectation-Maximization Algorithm",
+      "page": 49
+    },
+    {
+      "level": "H2",
+      "text": "In the real-world applications of machine learning, it is very common that",
+      "page": 49
+    },
+    {
+      "level": "H2",
+      "text": "there are many relevant features available for learning but only a small subset",
+      "page": 49
+    },
+    {
+      "level": "H2",
+      "text": "of them are observable. So, for the variables which are sometimes observable",
+      "page": 49
+    },
+    {
+      "level": "H2",
+      "text": "and sometimes not, then  we can use the instances when that variable is",
+      "page": 49
+    },
+    {
+      "level": "H2",
+      "text": "visible is observed for the purpose of learning and then predict its value in the",
+      "page": 49
+    },
+    {
+      "level": "H2",
+      "text": "instances when it is not observable.",
+      "page": 49
+    },
+    {
+      "level": "H2",
+      "text": "On the other hand,  Expectation-Maximization algorithm  can be used for the",
+      "page": 49
+    },
+    {
+      "level": "H2",
+      "text": "latent variables (variables that are not directly observable and are actually",
+      "page": 49
+    },
+    {
+      "level": "H2",
+      "text": "inferred from the values of the other observed variables) too in order to",
+      "page": 49
+    },
+    {
+      "level": "H2",
+      "text": "predict their values with the condition that the general form of probability",
+      "page": 49
+    },
+    {
+      "level": "H2",
+      "text": "distribution governing those latent variables is known to us. This algorithm is",
+      "page": 49
+    },
+    {
+      "level": "H2",
+      "text": "actually at the base of many unsupervised clustering algorithms in the field of",
+      "page": 49
+    },
+    {
+      "level": "H2",
+      "text": "machine learning.",
+      "page": 49
+    },
+    {
+      "level": "H2",
+      "text": "It was explained, proposed and given its name in a paper published in 1977",
+      "page": 49
+    },
+    {
+      "level": "H2",
+      "text": "by Arthur Dempster, Nan Laird, and Donald Rubin. It is used to find the  local",
+      "page": 49
+    },
+    {
+      "level": "H2",
+      "text": "maximum likelihood parameters  of a statistical model in the cases where",
+      "page": 49
+    },
+    {
+      "level": "H2",
+      "text": "latent variables are involved and the data is missing or incomplete.",
+      "page": 49
+    },
+    {
+      "level": "H2",
+      "text": "",
+      "page": 49
+    },
+    {
+      "level": "H3",
+      "text": "",
+      "page": 49
+    },
+    {
+      "level": "H2",
+      "text": "Algorithm:",
+      "page": 49
+    },
+    {
+      "level": "H3",
+      "text": "1.   Given a set of incomplete data, consider a set of starting parameters.",
+      "page": 49
+    },
+    {
+      "level": "H3",
+      "text": "2.   Expectation step (E \u2013 step):  Using the observed available data of the",
+      "page": 49
+    },
+    {
+      "level": "H2",
+      "text": "dataset, estimate (guess) the values of the missing data.",
+      "page": 49
+    },
+    {
+      "level": "H3",
+      "text": "3.   Maximization step (M \u2013 step):  Complete data generated after the",
+      "page": 49
+    },
+    {
+      "level": "H2",
+      "text": "expectation (E) step is used in order to update the parameters.",
+      "page": 49
+    },
+    {
+      "level": "H3",
+      "text": "4.   Repeat step 2 and step 3 until convergence.",
+      "page": 49
+    }
+  ]
+}
