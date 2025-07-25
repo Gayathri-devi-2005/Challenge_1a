@@ -60,12 +60,12 @@ docker run --rm \
     {
       "level": "H1",
       "text": "1. Introduction to Machine Learning",
-      "page": 1
+      "page": 0
     },
     {
       "level": "H2",
       "text": "1.1 Supervised Learning",
-      "page": 2
+      "page": 1
     }
   ]
 }
